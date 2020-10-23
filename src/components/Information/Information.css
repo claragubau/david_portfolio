@@ -1,0 +1,22 @@
+.InfoText{
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+    font-size: 4vh;
+}
+
+.Hablamos{
+    position: fixed;
+    top: 55vh;
+    left: 45vw;
+    font-size: 4vh;
+}
+
+.Contact{
+    position: fixed;
+    bottom: 6vh;
+    right: 5vw;
+    font-size: 4vh;
+    text-align: left;
+    align-items: left;
+}

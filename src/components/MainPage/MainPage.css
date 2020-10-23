@@ -1,0 +1,99 @@
+.Fixed {
+  text-align: left;
+  font-weight: lighter;
+}
+
+.Name{
+  position: fixed;
+  top: 4vh;
+  left: 3vw;
+  font-size: 5vh;
+  font-style: normal;
+}
+
+li{
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+  text-transform: none;
+  color:black;
+}
+li a:hover{
+  font-style: italic;
+}
+li a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.Information{
+  position: fixed;
+  bottom: 5vh;
+  right: 4vw;
+  font-size: 5vh;
+
+}
+
+.Center{
+  position: relative;
+  font-size: 9vh;
+  text-align: center;
+  margin-top: 25vh;
+  cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
+}
+
+.Center br{
+  display: block;
+  margin-top: -1.5vh;
+  content: "";
+}
+
+.Center sup{
+  font-size: 5vh;
+}
+
+/*PHOTO HOVER*/
+.hover-title {
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.hover-title:hover{
+  font-style: italic;
+}
+
+.hover-image {
+  display: none;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  display: flex;
+  pointer-events: none;
+  font-style: italic;
+}
+
+.hover-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+/* Change width and height to scale images */
+  width: 60vw;
+  height: 60vh;
+}
+
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
