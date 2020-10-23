@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css'
 import './Information.css'
+import lateral from '../../images/david.jpg'
 
 function Information() {
   return (
@@ -30,6 +31,9 @@ function Information() {
         +34 62 87 4 22 02
         <br/>
         davidalsinamercier@gmail.com 
+      </div>
+      <div className="LateralPic">
+        <img src={lateral} alt="prova"/>
       </div>
 
     </div>
