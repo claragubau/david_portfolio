@@ -37,10 +37,11 @@ li a:visited{
 }
 
 .Center{
-  position: relative;
+  position: fixed;
   font-size: 9vh;
   text-align: center;
-  margin-top: 25vh;
+  top: 25vh;
+  left: 25vw;
   cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
 }
 
