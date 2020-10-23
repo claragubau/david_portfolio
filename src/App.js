@@ -22,6 +22,7 @@ function App() {
     mouseCursor.style.top = e.pageY + "px"
     mouseCursor.style.left = e.pageX + "px"
   }
+
   
   //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
   return (   
