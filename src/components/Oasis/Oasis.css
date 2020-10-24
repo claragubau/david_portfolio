@@ -1,0 +1,56 @@
+.Name{
+    position: fixed;
+    top: 4vh;
+    left: 3vw;
+    font-size: 5vh;
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: none;
+    color:black;
+}
+li a:hover{
+    font-style: italic;
+}
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Oasis1{
+    width: 100%;
+    position: relative;
+    top: 12vh;
+}
+
+.Oasis1 img{
+    width: 100%;
+    height: 60vh;
+}
+
+.Oasis1 p{
+    margin-left: 40vw;
+    font-size: 3.5vh;
+    margin-right: 10vw;
+}
+
+.Oasis2{
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    width: 60vw;
+}
+
+.Oasis2 img{
+    width: 40vw;
+    height: 40vh;
+
+}
+
