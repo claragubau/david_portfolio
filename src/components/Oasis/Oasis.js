@@ -13,6 +13,10 @@ import nine from './oasis_photos/FOTO_OASIS_9.png'
 import ten from './oasis_photos/FOTO_OASIS_10.png'
 import eleven from './oasis_photos/FOTO_OASIS_11.png'
 import leftarrow from '../../images/FLETXA_INFO.png'
+import rightarrow from '../../images/FLETXA_INFO_D.png'
+import twelve from './oasis_photos/GIF_OASIS_2.gif'
+import '../MainPage/MainPage.css'
+
 
 function Oasis() {
   return (
@@ -20,11 +24,15 @@ function Oasis() {
       <div className='Name' style={{zIndex:6}}>
         <li><a href={"/#/"}>DAVID ALSINA MERCIER</a></li>
       </div>
-      <div className='Arrows'>
-        <li><a href={"/#/info"}>
+      <div className='LeftArrow'>
+        <li><a href={"/#/lectura"}>
           <img src={leftarrow} alt="arrow"/> 
         </a></li>
-
+      </div>
+      <div className='RightArrow'>
+        <li><a href={"/#/ego"}>
+          <img src={rightarrow} alt="arrow"/> 
+        </a></li>
       </div>
       <div className='Oasis1'>
         <img src={one} alt="oasis"/>
@@ -47,7 +55,7 @@ function Oasis() {
         <img src={three} alt="3d pic" style={{top:'-10vh', left:'30vw', position:'relative', zIndex:'-1'}}/>
       </div>
       <div className="Oasis3">
-      <img src={eleven} alt="guió literari"/>
+      <img src={twelve} alt="guió literari"/>
       <p>
           Nos cuenta la historia de Ada, una chica de
           dieciocho años que vive con su madre Bea
@@ -70,20 +78,30 @@ function Oasis() {
         </div>
       </div>
       <div className="Oasis5">
-      Se expresa a través de cuatro plataformas:
-      <br/> 
-      El cortometraje, eje principal que nos cuenta la historia que
-      da sentido a las otras plataformas.
-      <br/>
-      El perfil de Instagram (@oasis.larevista) que encarna la revista
-      semanal OASIS, producto del cortometraje.
-      <br/>
-      La página web que nos ayuda a conocer la historia más
-      profundamente.
-      <br/>
-      La instalación inmersiva donde se recrea la habitación de Ada
-      para que la espectadora pueda experimentar en el mundo de
-      la protagonista y ahondar en la temática del proyecto.
+        Se expresa a través de cuatro plataformas:
+        <br/> 
+        El cortometraje, eje principal que nos cuenta la historia que
+        da sentido a las otras plataformas.
+        <br/>
+        El perfil de Instagram (@oasis.larevista) que encarna la revista
+        semanal OASIS, producto del cortometraje.
+        <br/>
+        La página web que nos ayuda a conocer la historia más
+        profundamente.
+        <br/>
+        La instalación inmersiva donde se recrea la habitación de Ada
+        para que la espectadora pueda experimentar en el mundo de
+        la protagonista y ahondar en la temática del proyecto.
+      </div>
+      <div className="Oasis6">
+        <div className="FirstColumn2">
+          <img src={eigth} alt="revista1"/>
+          <img src={ten} alt="revista3"/>
+        </div>
+        <div className="SecondColumn2">
+          <img src={nine} alt="revista2"/>
+          <img src={eleven} alt="revista4"/>
+        </div>
       </div>
 
     </div>

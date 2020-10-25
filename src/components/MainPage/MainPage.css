@@ -26,6 +26,30 @@ li a:visited{
   text-decoration: none;
   color: black;
 }
+.LeftArrow{
+  position: fixed;
+  bottom: 5vh;
+  left: 3vw;
+  z-index: 6;
+  list-style-type: none;
+}
+
+.LeftArrow img{
+  height: 6vh;
+}
+.RightArrow{
+  position: fixed;
+  bottom: 5vh;
+  right: 3vw;
+  z-index: 6;
+  list-style-type: none;
+}
+
+.RightArrow img{
+  height: 6vh;
+}
+
+
 
 .Information{
   position: fixed;
