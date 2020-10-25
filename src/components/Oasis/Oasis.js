@@ -60,10 +60,14 @@ function Oasis() {
         </p>
       </div>
       <div className="Oasis4">
-        <img src={four} alt="cartell1"/>
-        <img src={five} alt="cartell2"/>
-        <img src={six} alt="cartell3"/>
-        <img src={seven} alt="cartell4"/>
+        <div className="FirstColumn">
+          <img src={four} alt="cartell1"/>
+          <img src={six} alt="cartell3"/>
+        </div>
+        <div className="SecondColumn">
+          <img src={five} alt="cartell2"/>
+          <img src={seven} alt="cartell4"/>
+        </div>
       </div>
       <div className="Oasis5">
       Se expresa a través de cuatro plataformas:

@@ -91,9 +91,20 @@ li a:visited{
     top: 40vh;
     display: flex;
 }
+.FirstColumn{
+    flex: 50%;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+.SecondColumn{
+    flex: 50%;
+    margin-left: -4.5vw;
+    margin-right: 10vw;
+}
 
 .Oasis4 img{
-    width: 35vw;
+    width: 40vw;
 }
 .Oasis5{
     position: relative;
