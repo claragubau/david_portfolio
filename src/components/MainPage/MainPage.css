@@ -1,11 +1,10 @@
 .Fixed {
   text-align: left;
-  font-weight: lighter;
 }
 
 .Name{
   position: fixed;
-  top: 4vh;
+  top: 3vh;
   left: 3vw;
   font-size: 5vh;
   font-style: normal;

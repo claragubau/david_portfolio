@@ -1,30 +1,41 @@
+.Back{
+    position: fixed;
+    bottom: 5vh;
+    left: 3vw;
+    list-style-type: none;
+}
+.Back img{
+    height: 6vh;
+}
+
 .InfoText{
     position: fixed;
-    top: 10vh;
-    left: 5vw;
-    font-size: 4vh;
+    top: 0vh;
+    left: 3vw;
+    font-size: 4.5vh;
 }
 
 .Hablamos{
     position: fixed;
-    top: 55vh;
+    top: 60vh;
     left: 45vw;
-    font-size: 4vh;
+    font-size: 4.5vh;
 }
 
 .Contact{
     position: fixed;
-    bottom: 6vh;
+    bottom: 0vh;
     right: 5vw;
-    font-size: 4vh;
-    text-align: left;
-    align-items: left;
+    font-size: 4.5vh;
+}
+.Contact p{
+    text-align: right;
 }
 
 .LateralPic{
     position: fixed;
-    right: 10vw;
-    top: 10vh;
+    right: 5vw;
+    top: 5vh;
 }
 
 .LateralPic img{

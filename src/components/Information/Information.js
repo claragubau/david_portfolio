@@ -1,13 +1,16 @@
 import React from 'react';
 import '../../index.css'
 import './Information.css'
-import lateral from '../../images/david.jpg'
+import lateral from '../../images/FOTO_INFO.png'
+import Arrow from '../../images/FLETXA_INFO.png'
 
 function Information() {
   return (
     <div>
-      <div className='Name'>
-        <li><a href={"/#/"}>DAVID ALSINA MERCIER</a></li>
+      <div className='Back'>
+        <li><a href={"/#/"}>
+          <img src={Arrow} alt="arrow"/>
+        </a></li>
       </div>
       <div className="InfoText">
         <p>
@@ -28,9 +31,11 @@ function Information() {
         ¿Hablamos?
       </div>
       <div className="Contact">
-        +34 62 87 4 22 02
+        <p> 
+        +34 628 74 22 02
         <br/>
         davidalsinamercier@gmail.com 
+        </p>
       </div>
       <div className="LateralPic">
         <img src={lateral} alt="prova"/>

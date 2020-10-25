@@ -1,5 +1,7 @@
 import * as serviceWorker from './serviceWorker';
-import './fonts/HelveticaNeue/HelveticaNeueRegular.ttf'
+import './fonts/HelveticaNeue.ttf'
+import './fonts/HelveticaNeue-Italic.ttf'
+import './fonts/HelveticaNeueBold.ttf'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
