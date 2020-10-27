@@ -10,15 +10,15 @@ function Lidia() {
   return (
     <div>
       <div className='Name'>
-        <li><a href={"/#/"}>DAVID ALSINA MERCIER</a></li>
+        <li><a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a></li>
       </div>
       <div className='LeftArrow'>
-        <li><a href={"/#/ego"}>
+        <li><a href={"/portfolio/#/ego"}>
           <img src={leftarrow} alt="arrow"/> 
         </a></li>
       </div>
       <div className='RightArrow'>
-        <li><a href={"/#/tresrosas"}>
+        <li><a href={"/portfolio/#/tresrosas"}>
           <img src={rightarrow} alt="arrow"/> 
         </a></li>
       </div>

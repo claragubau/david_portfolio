@@ -22,15 +22,15 @@ function Oasis() {
   return (
     <div>
       <div className='Name' style={{zIndex:6}}>
-        <li><a href={"/#/"}>DAVID ALSINA MERCIER</a></li>
+        <li><a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a></li>
       </div>
       <div className='LeftArrow'>
-        <li><a href={"/#/lectura"}>
+        <li><a href={"/portfolio/#/lectura"}>
           <img src={leftarrow} alt="arrow"/> 
         </a></li>
       </div>
       <div className='RightArrow'>
-        <li><a href={"/#/ego"}>
+        <li><a href={"/portfolio/#/ego"}>
           <img src={rightarrow} alt="arrow"/> 
         </a></li>
       </div>

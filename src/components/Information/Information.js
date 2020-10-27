@@ -8,7 +8,7 @@ function Information() {
   return (
     <div>
       <div className='Back'>
-        <li><a href={"/#/"}>
+        <li><a href={"/portfolio/#/"}>
           <img src={Arrow} alt="arrow"/>
         </a></li>
       </div>

@@ -9,15 +9,15 @@ function Ego() {
   return (
     <div>
       <div className='Name'>
-        <li><a href={"/#/"}>DAVID ALSINA MERCIER</a></li>
+        <li><a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a></li>
       </div>
       <div className='LeftArrow'>
-        <li><a href={"/#/oasis"}>
+        <li><a href={"/portfolio/#/oasis"}>
           <img src={leftarrow} alt="arrow"/> 
         </a></li>
       </div>
       <div className='RightArrow'>
-        <li><a href={"/#/lidia"}>
+        <li><a href={"/portfolio/#/lidia"}>
           <img src={rightarrow} alt="arrow"/> 
         </a></li>
       </div>
