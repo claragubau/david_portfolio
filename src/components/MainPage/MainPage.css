@@ -6,7 +6,7 @@
   position: fixed;
   top: 3vh;
   left: 3vw;
-  font-size: 5vh;
+  font-size: 2.5vw;
   font-style: normal;
 }
 
@@ -55,18 +55,25 @@ li a:visited{
   position: fixed;
   bottom: 5vh;
   right: 4vw;
-  font-size: 5vh;
+  font-size: 2.5vw;
 
 }
 
 .Center{
   position: fixed;
-  font-size: 8vh;
+  font-size: 3.5vw;
   text-align: center;
   top: 27.5vh;
   left: 18.5vw;
   right: 18.5vw;
   cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
+}
+.Center img{
+  height: 75vh;
+}
+
+.Center video{
+  height: 65vh;
 }
 
 .Center br{
@@ -76,7 +83,7 @@ li a:visited{
 }
 
 .Center sup{
-  font-size: 5vh;
+  font-size: 2.25vw;
 }
 
 /*PHOTO HOVER*/

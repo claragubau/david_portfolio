@@ -12,21 +12,22 @@
     position: fixed;
     top: 0vh;
     left: 3vw;
-    font-size: 4.5vh;
+    font-size: 2.25vw;
 }
 
 .Hablamos{
     position: fixed;
     top: 57.5vh;
     left: 3vw;
-    font-size: 4.5vh;
+    font-size: 2.25vw;
 }
 
 .Contact{
     position: fixed;
-    bottom: 17.5vh;
+    top: 62.5vh;
+    bottom: 20vh;
     right: 5vw;
-    font-size: 4.5vh;
+    font-size: 2.25vw;
 }
 .Contact p{
     text-align: right;
