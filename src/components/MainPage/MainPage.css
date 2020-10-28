@@ -61,17 +61,17 @@ li a:visited{
 
 .Center{
   position: fixed;
-  font-size: 9vh;
+  font-size: 8vh;
   text-align: center;
-  top: 25vh;
-  left: 20vw;
-  right: 20vw;
+  top: 27.5vh;
+  left: 18.5vw;
+  right: 18.5vw;
   cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
 }
 
 .Center br{
   display: block;
-  margin-top: -1.5vh;
+  margin-top: -1vh;
   content: "";
 }
 
