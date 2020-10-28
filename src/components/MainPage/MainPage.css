@@ -60,12 +60,12 @@ li a:visited{
 }
 
 .Center{
-  position: fixed;
+  position: static;
   font-size: 3.5vw;
   text-align: center;
-  top: 27.5vh;
-  left: 18.5vw;
-  right: 18.5vw;
+  margin-top: 27.5vh;
+  margin-left: auto;
+  margin-right: auto;
   cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
 }
 .Center img{
