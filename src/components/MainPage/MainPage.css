@@ -64,7 +64,8 @@ li a:visited{
   font-size: 9vh;
   text-align: center;
   top: 25vh;
-  left: 25vw;
+  left: 20vw;
+  right: 20vw;
   cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
 }
 

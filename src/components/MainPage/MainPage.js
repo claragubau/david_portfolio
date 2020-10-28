@@ -10,7 +10,7 @@ function MainPage() {
       <div className='Name'>DAVID ALSINA MERCIER</div>
       <div className='Center'>
           <div className="hover-title">
-            <li><a href={"/portfolio/#/oasis"}>OASIS<sup>.MP4</sup></a></li>
+            <li><a href={"/portfolio/#/oasis"}>OASIS<sup>.MOV</sup></a></li>
           </div>
           <div className="hover-image"><img alt="italian trulli" src={david}/></div>
           <br/>
@@ -28,13 +28,13 @@ function MainPage() {
           <br/>
 
           <div className="hover-title">
-            <li><a href={"/portfolio/#/tresrosas"}>TRES ROSAS<sup>.MP4</sup></a></li>
+            <li><a href={"/portfolio/#/tresrosas"}>TRES ROSAS<sup>.MOV</sup></a></li>
           </div>
           <div className="hover-image"><img alt="rosas" src={david2}/></div>
           <br/>
 
           <div className="hover-title">
-            <li><a href={"/portfolio/#/lectura"}>LECTURA OBLIGATORIA<sup>.MP4</sup></a></li>
+            <li><a href={"/portfolio/#/lectura"}>LECTURA OBLIGATORIA<sup>.MOV</sup></a></li>
           </div>
           <div className="hover-image"><img alt="lectura" src={david}/></div>
           <br/>
