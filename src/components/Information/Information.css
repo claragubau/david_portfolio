@@ -17,14 +17,14 @@
 
 .Hablamos{
     position: fixed;
-    top: 60vh;
-    left: 45vw;
+    top: 57.5vh;
+    left: 3vw;
     font-size: 4.5vh;
 }
 
 .Contact{
     position: fixed;
-    bottom: 0vh;
+    bottom: 17.5vh;
     right: 5vw;
     font-size: 4.5vh;
 }
@@ -41,6 +41,5 @@
 .LateralPic img{
     width: 20vw;
     display: block;
-    height: 60vh;
-
+    height: auto;
 }

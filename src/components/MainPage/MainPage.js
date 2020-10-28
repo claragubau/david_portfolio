@@ -2,7 +2,7 @@ import React from 'react';
 import '../../index.css'
 import './MainPage.css'
 import oasis from './images/GIF_OASIS_1.gif'
-import lectura from './images/GIF_LO_1.gif'
+import lectura from './images/GIF_LO_2.webp'
 import tresrosas from './images/GIF_TRESROSAS_1.gif'
 
 function MainPage() {

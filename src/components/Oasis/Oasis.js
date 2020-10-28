@@ -15,6 +15,7 @@ import eleven from './oasis_photos/FOTO_OASIS_11.png'
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
 import twelve from './oasis_photos/GIF_OASIS_2.gif'
+import onetwo from './oasis_photos/FOTO_OASIS_1.2.png'
 import '../MainPage/MainPage.css'
 
 
@@ -38,17 +39,13 @@ function Oasis() {
         <img src={one} alt="oasis"/>
         <p>
           <i>OASIS</i> es un proyecto transmedia creado por seis
-          <br/>
           estudiantes de la <i>Escuela Univeristaria ERAM</i>, que plantea
-          <br/>
           una historia sobre el estado de ignorancia consciente como 
-          <br/>
           forma de vida, sobre la intervención de fuentes externas que 
-          <br/>
           impiden llegar a la esencia de la realida, y sobre la dificultad
-          <br/>
           de salir de la zona de confort.
         </p>
+        <img src={onetwo} alt ="oasis12"/>
       </div>
       <div className="Oasis2">
         <img src={two} alt="2nd pic"/>
