@@ -5,7 +5,10 @@ import one from './oasis_photos/FOTO_OASIS_1.png'
 import two from './oasis_photos/FOTO_OASIS_2.png'
 import three from './oasis_photos/FOTO_OASIS_3.png'
 import four from './oasis_photos/FOTO_OASIS_4.2.png'
-import eigth from './oasis_photos/FOTO_OASIS_8.2.png'
+import eight from './oasis_photos/FOTO_OASIS_8.png'
+import nine from './oasis_photos/FOTO_OASIS_9.png'
+import ten from './oasis_photos/FOTO_OASIS_10.png'
+import eleven from './oasis_photos/FOTO_OASIS_11.png'
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
 import twelve from './oasis_photos/GIF_OASIS_2.gif'
@@ -19,6 +22,9 @@ import quad8 from './oasis_photos/GIF_OASIS_8.1.mov'
 import quad1 from './oasis_photos/FOTO_OASIS_12.png'
 import quad5 from './oasis_photos/FOTO_OASIS_13.png'
 import quad9 from './oasis_photos/FOTO_OASIS_14.png'
+import petra from './oasis_photos/GIF_OASIS_9.MOV'
+import habitacio from './oasis_photos/GIF_OASIS_11.mp4'
+import equip from './oasis_photos/FOTO_OASIS_15.png'
 import '../MainPage/MainPage.css'
 
 
@@ -87,9 +93,10 @@ function Oasis() {
         la protagonista y ahondar en la temática del proyecto.
       </div>
       <div className="Oasis6">
-        <div className="aux6">
-          <img src={eigth} alt="revista1"/>
-        </div>
+          <img src={eight} alt="revista1"/>
+          <img src={nine} alt="revista1"/>
+          <img src={ten} alt="revista1"/>
+          <img src={eleven} alt="revista1"/>
       </div>
       <div className="Oasis7">
           <img alt="italian trulli" src={quad1}/>
@@ -101,6 +108,30 @@ function Oasis() {
           <video autoPlay loop src={quad3} alt="trulli"/>
           <video autoPlay loop src={quad6} alt="italian trulli"/>        
           <img alt="italian trulli" src={quad9}/>
+      </div>
+      <div className="Oasis8">
+        <video autoPlay loop src={petra} alt="filtergif"/>
+      </div>
+      <div className="Oasis9">
+        <video autoPlay loop src={habitacio} alt="habitacionada"/>
+      </div>
+      <div className="Oasis10">
+        <img src={equip} alt="italian trulli"/>
+      </div>
+      <div className="Oasis11">
+        <p>
+          <b>Idea, guión y dirección:</b> David Alsina
+          <br/>
+          <b>Directora de postproducción:</b> Isabel Pérez
+          <br/>
+          <b>Ayudante de dirección:</b> Lluís Cascales
+          <br/>
+          <b>Dirección de arte:</b> Maria Boquera
+          <br/>
+          <b>Dirección de producción:</b> Marta Cámara
+          <br/>
+          <b>DoP y responsable de transmedia:</b> Pau Simón
+        </p>
       </div>
 
     </div>

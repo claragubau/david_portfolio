@@ -79,16 +79,17 @@
 .Oasis6{
     position: static;
     margin-top: 17.5vh;
-    padding-bottom:10px; display: flex; 
-    flex-wrap: wrap; 
+    display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.aux6{
-    margin-left: auto;
-}
 .Oasis6 img{
-    width: 75vw;
+    width: 35vw;
+    height: auto;
+    padding: 8px;
 }
 
 .Oasis7{
@@ -100,9 +101,46 @@
 
 .Oasis7 img{
     width: 25vw;
-    padding: 0.25em;
+    padding: 8px;
 }
 .Oasis7 video{
     width: 25vw;
-    padding: 0.25em;
+    padding: 8px;
+}
+
+.Oasis8{
+    margin-top: 17.5vh;
+}
+.Oasis8 video{
+    width: 40vw;
+    height: auto;
+}
+
+.Oasis9{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -65vh;
+}
+.Oasis9 video{
+    width: 40vw;
+    height: auto;
+}
+
+.Oasis10{
+    display: flex;
+    justify-content: center;
+    margin-top: 17.5vh;
+}
+.Oasis10 img{
+    width: 70vw;
+    height: auto;
+}
+.Oasis11{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
