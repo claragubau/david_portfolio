@@ -35,7 +35,7 @@ li a:visited{
 }
 
 .LeftArrow img{
-  height: 6vh;
+  height: 3vw;
 }
 .RightArrow{
   position: fixed;
@@ -46,7 +46,7 @@ li a:visited{
 }
 
 .RightArrow img{
-  height: 6vh;
+  height: 3vw;
 }
 
 
@@ -60,7 +60,7 @@ li a:visited{
 }
 
 .Center{
-  position: static;
+  position: relative;
   font-size: 4vw;
   text-align: center;
   margin-top: 27.5vh;

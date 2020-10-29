@@ -27,7 +27,7 @@
 }
 
 .Oasis2 img{
-    width: 50vw;
+    width: 55vw;
 }
 
 .Oasis3{
@@ -45,7 +45,7 @@
 .Oasis3 p{
     margin-left: 3.5vw;
     position: relative;
-    margin-right: 20vw;
+    margin-right: 25vw;
     margin-top: 10vh;
     flex: 75%;
     font-size: 1.9vw;
@@ -93,5 +93,24 @@
 }
 
 .Oasis7{
-    
+    box-sizing: border-box;
+}
+
+.Col1{
+    width: 33%;
+}
+
+.Col2{
+    width: 33%;
+}
+
+.Col3{
+    width: 33%;
+}
+
+.Oasis7 img{
+    width: 20vw;
+}
+.Oasis7 video{
+    width: 20vw;
 }

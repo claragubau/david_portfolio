@@ -10,6 +10,15 @@ import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
 import twelve from './oasis_photos/GIF_OASIS_2.gif'
 import onetwo from './oasis_photos/FOTO_OASIS_1.2.png'
+import quad2 from './oasis_photos/GIF_OASIS_3.1.mov'
+import quad3 from './oasis_photos/GIF_OASIS_4.1.mov'
+import quad4 from './oasis_photos/GIF_OASIS_5.1.mov'
+import quad6 from './oasis_photos/GIF_OASIS_6.1.mov'
+import quad7 from './oasis_photos/GIF_OASIS_7.1.mov'
+import quad8 from './oasis_photos/GIF_OASIS_8.1.mov'
+import quad1 from './oasis_photos/FOTO_OASIS_12.png'
+import quad5 from './oasis_photos/FOTO_OASIS_13.png'
+import quad9 from './oasis_photos/FOTO_OASIS_14.png'
 import '../MainPage/MainPage.css'
 
 
@@ -36,7 +45,7 @@ function Oasis() {
           estudiantes de la <i>Escuela Univeristaria ERAM</i>, que plantea
           una historia sobre el estado de ignorancia consciente como 
           forma de vida, sobre la intervención de fuentes externas que 
-          impiden llegar a la esencia de la realida, y sobre la dificultad
+          impiden llegar a la esencia de la realidad, y sobre la dificultad
           de salir de la zona de confort.
         </p>
         <img src={onetwo} alt ="oasis12"/>
@@ -53,7 +62,7 @@ function Oasis() {
           en una antigua casa. Les ha llegado el
           momento de mudarse, pero Ada prefiere
           vivir dormida siguiendo las rutinas que le
-          marca OASIS, una revista semanal. Aunque
+          marca <i>OASIS</i>, una revista semanal. Aunque
           no quiera, tiene que aceptar que Bea murió
           y ya no vive con ella.
         </p>
@@ -83,6 +92,21 @@ function Oasis() {
         </div>
       </div>
       <div className="Oasis7">
+        <div className="Col1">
+          <img alt="italian trulli" src={quad1}/>
+          <video autoPlay loop src={quad4} alt="trulli"/>
+          <video autoPlay loop src={quad7} alt="italian trulli"/>
+        </div>
+        <div className="Col2">
+          <video autoPlay loop src={quad2} alt="trulli"/>
+          <img alt="italian trulli" src={quad5}/>
+          <video autoPlay loop src={quad8} alt="italian trulli"/>
+        </div>
+        <div className="Col3">
+          <video autoPlay loop src={quad3} alt="trulli"/>
+          <video autoPlay loop src={quad6} alt="italian trulli"/>        
+          <img alt="italian trulli" src={quad9}/>
+        </div>
 
       </div>
 
