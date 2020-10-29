@@ -79,7 +79,6 @@
 .Oasis6{
     position: static;
     margin-top: 17.5vh;
-    border-bottom: 1px solid; 
     padding-bottom:10px; display: flex; 
     flex-wrap: wrap; 
     align-items: flex-end;
@@ -89,28 +88,21 @@
     margin-left: auto;
 }
 .Oasis6 img{
-    width: 60vw;
+    width: 75vw;
 }
 
 .Oasis7{
-    box-sizing: border-box;
-}
-
-.Col1{
-    width: 33%;
-}
-
-.Col2{
-    width: 33%;
-}
-
-.Col3{
-    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 17.5vh;
 }
 
 .Oasis7 img{
-    width: 20vw;
+    width: 25vw;
+    padding: 0.25em;
 }
 .Oasis7 video{
-    width: 20vw;
+    width: 25vw;
+    padding: 0.25em;
 }

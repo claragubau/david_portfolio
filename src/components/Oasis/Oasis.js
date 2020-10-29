@@ -92,22 +92,15 @@ function Oasis() {
         </div>
       </div>
       <div className="Oasis7">
-        <div className="Col1">
           <img alt="italian trulli" src={quad1}/>
           <video autoPlay loop src={quad4} alt="trulli"/>
           <video autoPlay loop src={quad7} alt="italian trulli"/>
-        </div>
-        <div className="Col2">
           <video autoPlay loop src={quad2} alt="trulli"/>
           <img alt="italian trulli" src={quad5}/>
           <video autoPlay loop src={quad8} alt="italian trulli"/>
-        </div>
-        <div className="Col3">
           <video autoPlay loop src={quad3} alt="trulli"/>
           <video autoPlay loop src={quad6} alt="italian trulli"/>        
           <img alt="italian trulli" src={quad9}/>
-        </div>
-
       </div>
 
     </div>
