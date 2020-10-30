@@ -10,17 +10,17 @@ function Lectura() {
   return (
     <div>
       <div className='Name'>
-        <li><a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a></li>
+        <a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a>
       </div>
       <div className='LeftArrow'>
-        <li><a href={"/portfolio/#/tresrosas"}>
+        <a href={"/portfolio/#/tresrosas"}>
           <img src={leftarrow} alt="arrow"/> 
-        </a></li>
+        </a>
       </div>
       <div className='RightArrow'>
-        <li><a href={"/portfolio/#/oasis"}>
+        <a href={"/portfolio/#/oasis"}>
           <img src={rightarrow} alt="arrow"/> 
-        </a></li>
+        </a>
       </div>
   </div>
   );

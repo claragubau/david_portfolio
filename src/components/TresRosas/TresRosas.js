@@ -9,17 +9,17 @@ function TresRosas() {
   return (
     <div>
       <div className='Name'>
-        <li><a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a></li>
+        <a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a>
       </div>
       <div className='LeftArrow'>
-        <li><a href={"/portfolio/#/lidia"}>
+        <a href={"/portfolio/#/lidia"}>
           <img src={leftarrow} alt="arrow"/> 
-        </a></li>
+        </a>
       </div>
       <div className='RightArrow'>
-        <li><a href={"/portfolio/#/lectura"}>
+        <a href={"/portfolio/#/lectura"}>
           <img src={rightarrow} alt="arrow"/> 
-        </a></li>
+        </a>
       </div>
   </div>
   );

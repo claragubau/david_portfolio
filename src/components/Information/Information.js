@@ -1,11 +1,20 @@
 import React from 'react';
+import {Component} from 'react';
 import '../../index.css'
 import './Information.css'
 import lateral from '../../images/FOTO_INFO.png'
 import Arrow from '../../images/FLETXA_INFO.png'
 
-function Information() {
+const Mailto = ({ email, subject, body, children }) => {
   return (
+    <a href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}&body=${encodeURIComponent(body) || ''}`}>{children}</a>
+  );
+};
+
+class Information extends Component{
+
+  render(){
+    return(
     <div>
       <div className='Back'>
         <li><a href={"/portfolio/#/"}>
@@ -34,9 +43,13 @@ function Information() {
           <p style={{marginTop:"1vh"}}> 
           +34 628 74 22 02
           <br/>
-          <a href="mailto:davidalsinamercier@gmail.com">
+          <Mailto email="foo@bar.baz" subject="HelloWelcome" body="Hello world!">
+            davidalsinamercier@gmail.com
+          </Mailto>
+          {/* <a href="mailto:davidalsinamercier@gmail.com">
           davidalsinamercier@gmail.com 
-          </a>
+          </a> */}
+          <a class="mailto" href="mailto:contact@test.com">Mail</a>
           </p>
           <p className="Desarrollada">
             Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/claragubau" style={{textDecoration:"underline"}}>
@@ -46,7 +59,10 @@ function Information() {
         </div>
       </div>
     </div>
-  );
+
+    )
+  }
 }
+
 
 export default Information;
