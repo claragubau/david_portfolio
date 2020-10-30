@@ -132,7 +132,7 @@ function Oasis() {
       <div className="FotoEquipo">
         <img src={equip} alt="foto del equipo"/>
       </div>
-      <div className="Oasis11">
+      <div className="TextEquipo">
         <p>
           <b>Idea, guión y dirección:</b> David Alsina
           <br/>

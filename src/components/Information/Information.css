@@ -4,43 +4,54 @@
     left: 3vw;
     list-style-type: none;
 }
+
 .Back img{
-    height: 6vh;
+    height: 3vw;
+    width: auto;
 }
-
-.InfoText{
-    position: fixed;
-    top: 0vh;
-    left: 3vw;
-    font-size: 2.25vw;
-}
-
-.Hablamos{
-    position: fixed;
-    top: 57.5vh;
-    left: 3vw;
-    font-size: 2.25vw;
-}
-
-.Contact{
-    position: fixed;
-    top: 62.5vh;
-    bottom: 20vh;
-    right: 5vw;
-    font-size: 2.25vw;
-}
-.Contact p{
-    text-align: right;
+.Content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .LateralPic{
-    position: fixed;
-    right: 5vw;
-    top: 5vh;
+    width: auto;
+    height: 60vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0px;
+    margin-top: 5vh;
 }
 
-.LateralPic img{
-    width: 20vw;
-    display: block;
-    height: auto;
+.Lateral{
+    margin-right: 5vw;
+    text-align: right;
+    font-size: 2.25vw;
+}
+
+.InfoText{
+    width: 55vw;
+    font-size: 2.25vw;
+    margin-left: 3vw;
+}
+
+.Hablamos{
+    position: relative;
+    margin-top: 15vh;
+    font-size: 2.25vw;
+}
+
+.Desarrollada{
+    font-size: 1.3vw;
+    position: fixed;
+    bottom: 3vh;
+    right: 5vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-style: italic;
 }

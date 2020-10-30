@@ -39,8 +39,7 @@ function MainPage() {
           </div>
           <div className="hover-image"><img alt="lectura" src={lectura}/></div>
           <br/>
-          
-        </div>
+      </div>
       <div className='Information'>
         <a href={"/portfolio/#/info"}>INFO</a>
       </div>

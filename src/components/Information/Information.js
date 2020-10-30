@@ -12,35 +12,39 @@ function Information() {
           <img src={Arrow} alt="arrow"/>
         </a></li>
       </div>
-      <div className="InfoText">
-        <p>
-          Diseñador visual enfocado en proyectos editoriales,
-          <br/> 
-          gráficos, audiovisuales y de dirección de arte.
-        </p>
-        <p>
-          Atraído por el diseño narrativo para personas, 
+      <div className="Content">
+        <div className="InfoText">
+          <p>
+            Diseñador visual enfocado en proyectos editoriales,
+            gráficos, audiovisuales y de dirección de arte.
+          </p>
+          <p>
+            Atraído por el diseño narrativo para personas, 
+            con fines sociales y culturales.
+          </p> 
+          <p>
+            Interesado en el trabajo de conceptos psicológicos.
+          </p> 
+          <div className="Hablamos">
+            ¿Hablamos?
+          </div>
+        </div>
+        <div className="Lateral">
+          <img src={lateral} alt="prova" className="LateralPic"/>
+          <p style={{marginTop:"1vh"}}> 
+          +34 628 74 22 02
           <br/>
-          con fines sociales y culturales.
-        </p> 
-        <p>
-          Interesado en el trabajo de conceptos psicológicos.
-        </p> 
-      </div> 
-      <div className="Hablamos">
-        ¿Hablamos?
+          <a href="mailto:davidalsinamercier@gmail.com">
+          davidalsinamercier@gmail.com 
+          </a>
+          </p>
+          <p className="Desarrollada">
+            Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/claragubau" style={{textDecoration:"underline"}}>
+            Clara Gubau Gubert
+            </a>
+          </p>
+        </div>
       </div>
-      <div className="Contact">
-        <p> 
-        +34 628 74 22 02
-        <br/>
-        davidalsinamercier@gmail.com 
-        </p>
-      </div>
-      <div className="LateralPic">
-        <img src={lateral} alt="prova"/>
-      </div>
-
     </div>
   );
 }
