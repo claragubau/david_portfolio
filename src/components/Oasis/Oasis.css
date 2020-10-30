@@ -1,17 +1,17 @@
 
-.Oasis1{
+.FistPhotosText{
     width: 100%;
     position: static;
     margin-top: 10vh;
 }
 
-.Oasis1 img{
+.FistPhotosText img{
     width: 100%;
     height: auto;
     position: static;
 }
 
-.Oasis1 p{
+.FistPhotosText p{
     margin-left: auto;
     font-size: 1.9vw;
     margin-right: auto;
@@ -20,29 +20,29 @@
     margin-bottom: 17.5vh;
 }
 
-.Oasis2{
+.Superpuestas{
     position: static;
     margin-top: 17.5vh;
     margin-bottom: 0;
 }
 
-.Oasis2 img{
+.Superpuestas img{
     width: 55vw;
 }
 
-.Oasis3{
+.GifGuion{
     position: static;
     margin-top: 17.5vh;
     display: flex;
 }
 
-.Oasis3 img{
+.GifGuion img{
     width: 40vw;
     height: auto;
     flex: 35%;
 }
 
-.Oasis3 p{
+.GifGuion p{
     margin-left: 3.5vw;
     position: relative;
     margin-right: 25vw;
@@ -51,18 +51,20 @@
     font-size: 1.9vw;
 }
 
-.Oasis4{
+.Carteles{
     margin-top: 17.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.Oasis4 img{
-    width: 80vw;
+.Carteles img{
+    width: 35vw;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 8px;
 }
 
-.Oasis5{
+.TextoPlat{
     position: static;
     margin-top: 17.5vh;
     width: 60vw;
@@ -70,13 +72,13 @@
     font-size: 1.9vw;
 }
 
-.Oasis5 br{
+.TextoPlat br{
     display: block;
     margin-top: 3.25vh;
     content: "";
 }
 
-.Oasis6{
+.OasisRevista{
     position: static;
     margin-top: 17.5vh;
     display: flex;
@@ -86,53 +88,53 @@
     flex-wrap: wrap;
 }
 
-.Oasis6 img{
+.OasisRevista img{
     width: 35vw;
     height: auto;
     padding: 8px;
 }
 
-.Oasis7{
+.OasisProducts{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 17.5vh;
 }
 
-.Oasis7 img{
+.OasisProducts img{
     width: 25vw;
     padding: 8px;
 }
-.Oasis7 video{
+.OasisProducts video{
     width: 25vw;
     padding: 8px;
 }
 
-.Oasis8{
+.OasisFilter{
     margin-top: 17.5vh;
 }
-.Oasis8 video{
+.OasisFilter video{
     width: 40vw;
     height: auto;
 }
 
-.Oasis9{
+.OasisHab{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: -65vh;
+    margin-top: -20rem;
 }
-.Oasis9 video{
+.OasisHab video{
     width: 40vw;
     height: auto;
 }
 
-.Oasis10{
+.FotoEquipo{
     display: flex;
     justify-content: center;
     margin-top: 17.5vh;
 }
-.Oasis10 img{
+.FotoEquipo img{
     width: 70vw;
     height: auto;
 }
