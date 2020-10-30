@@ -11,6 +11,8 @@ const Mailto = ({ email, subject, body, children }) => {
   );
 };
 
+
+
 class Information extends Component{
 
   render(){
@@ -43,13 +45,9 @@ class Information extends Component{
           <p style={{marginTop:"1vh"}}> 
           +34 628 74 22 02
           <br/>
-          <Mailto email="foo@bar.baz" subject="HelloWelcome" body="Hello world!">
+          <Mailto email="davidalsinamercier@gmail.com">
             davidalsinamercier@gmail.com
           </Mailto>
-          {/* <a href="mailto:davidalsinamercier@gmail.com">
-          davidalsinamercier@gmail.com 
-          </a> */}
-          <a class="mailto" href="mailto:contact@test.com">Mail</a>
           </p>
           <p className="Desarrollada">
             Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/claragubau" style={{textDecoration:"underline"}}>
