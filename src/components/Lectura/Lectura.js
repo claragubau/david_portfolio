@@ -2,6 +2,7 @@ import React from 'react';
 import '../../index.css'
 import '../MainPage/MainPage.css'
 import './Lectura.css'
+import ReactPlayer from "react-player"
 
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
@@ -53,9 +54,10 @@ function Lectura() {
           Elementos y formas interpretando conceptos, libros,
           temas y disciplinas.
         </p>
-
       </div>
-      <iframe src="https://youtu.be/pFx7qr_dP-Y" title="trailer" className="VideoLO"/>
+      <div className="VideoLO">
+        <ReactPlayer url="https://youtu.be/pFx7qr_dP-Y" className="VideoLO" width="80vw" height="90vh"/>
+      </div>
   </div>
   );
 }
