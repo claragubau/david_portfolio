@@ -1,39 +1,43 @@
 import React from 'react';
 import '../../index.css'
 import './Oasis.css'
-// primeras fotos 
-import primera from './oasis_photos/FOTO_OASIS_1.png'
-import segona from './oasis_photos/FOTO_OASIS_1.2.png'
-import tercera from './oasis_photos/FOTO_OASIS_2.png'
-import cuarta from './oasis_photos/FOTO_OASIS_3.png'
-// carteles
-import cartel1 from './oasis_photos/FOTO_OASIS_4.png'
-import cartel2 from './oasis_photos/FOTO_OASIS_5.png'
-import cartel3 from './oasis_photos/FOTO_OASIS_6.png'
-import cartel4 from './oasis_photos/FOTO_OASIS_7.png'
-//revista
-import revista1 from './oasis_photos/FOTO_OASIS_8.png'
-import revista2 from './oasis_photos/FOTO_OASIS_9.png'
-import revista3 from './oasis_photos/FOTO_OASIS_10.png'
-import revista4 from './oasis_photos/FOTO_OASIS_11.png'
+import '../MainPage/MainPage.css'
+
 //inicio
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
-//
-import twelve from './oasis_photos/GIF_OASIS_2.gif'
-import quad2 from './oasis_photos/GIF_OASIS_3.1.mov'
-import quad3 from './oasis_photos/GIF_OASIS_4.1.mov'
-import quad4 from './oasis_photos/GIF_OASIS_5.1.mov'
-import quad6 from './oasis_photos/GIF_OASIS_6.1.mov'
-import quad7 from './oasis_photos/GIF_OASIS_7.1.mov'
-import quad8 from './oasis_photos/GIF_OASIS_8.1.mov'
-import quad1 from './oasis_photos/FOTO_OASIS_12.png'
-import quad5 from './oasis_photos/FOTO_OASIS_13.png'
-import quad9 from './oasis_photos/FOTO_OASIS_14.png'
-import petra from './oasis_photos/GIF_OASIS_9.mov'
-import habitacio from './oasis_photos/GIF_OASIS_10.mov'
-import equip from './oasis_photos/FOTO_OASIS_15.png'
-import '../MainPage/MainPage.css'
+// primeras fotos 
+import adaybea from './oasis_photos/PNG_ADAIBEA_OASIS.png'
+import adallorando from './oasis_photos/PNG_ADAPLORANT_OASIS.png'
+import adabebiendo from './oasis_photos/PNG_ADABEBENT_OASIS.png'
+import kevin from './oasis_photos/PNG_KEVIN_OASIS.png'
+// carteles
+import carteltodos from './oasis_photos/PNG_CARTELLTOTS_OASIS.png'
+import cartelada from './oasis_photos/PNG_CARTELLADA_OASIS.png'
+import cartelkevin from './oasis_photos/PNG_CARTELLKEVIN_OASIS.png'
+import carteladabea from './oasis_photos/PNG_CARTELLADAIBEA_OASIS.png'
+//revista
+import revista1 from './oasis_photos/PNG_REVISTA1_OASIS.png'
+import revista2 from './oasis_photos/PNG_REVISTA2_OASIS.png'
+import revista3 from './oasis_photos/PNG_REVISTA3_OASIS.png'
+import revista4 from './oasis_photos/PNG_REVISTA4_OASIS.png'
+
+import guion from './oasis_photos/MP4_GUIO_OASIS.mp4'
+
+import lampara from './oasis_photos/PNG_LAMPARA_OASIS.png'
+import vacaciones from'./oasis_photos/MP4_VACACIONES_OASIS.mp4'
+import tele from './oasis_photos/MP4_TELE_OASIS.mp4'
+import rayos from './oasis_photos/MP4_RAJOS_OASIS.mp4'
+import neon from './oasis_photos/PNG_OASISNEON_OASIS.png'
+import primavera from'./oasis_photos/MP4_PRIMAVERA_OASIS.mp4'
+import pastillas from './oasis_photos/MP4_PASTILLES_OASIS.mp4'
+import taza from './oasis_photos/MP4_TASSA_OASIS.mp4'
+import menu from './oasis_photos/PNG_MENU_OASIS.png'
+
+import filtro from './oasis_photos/MP4_FILTRE_OASIS.mp4'
+import habitacion from './oasis_photos/MP4_INSTALACIO_OASIS.mp4'
+
+import equipo from './oasis_photos/PNG_EQUIP_OASIS.png'
 
 
 function Oasis() {
@@ -53,7 +57,7 @@ function Oasis() {
         </a>
       </div>
       <div className='FistPhotosText'>
-        <img src={primera} alt="primera foto"/>
+        <img src={adaybea} alt="Ada y Bea"/>
         <p>
           <i>OASIS</i> es un proyecto transmedia creado por seis
           estudiantes de la <i>Escuela Univeristaria ERAM</i>, que plantea
@@ -62,14 +66,14 @@ function Oasis() {
           impiden llegar a la esencia de la realidad, y sobre la dificultad
           de salir de la zona de confort.
         </p>
-        <img src={segona} alt ="ada"/>
+        <img src={adallorando} alt ="Ada llorando"/>
       </div>
       <div className="Superpuestas">
-        <img src={tercera} alt="ada cafè"/>
-        <img src={cuarta} alt="kevin" style={{marginTop:'-10vh', marginLeft:'30vw', position:'relative', zIndex:'-5'}}/>
+        <img src={adabebiendo} alt="Ada bebiendo cafè"/>
+        <img src={kevin} alt="kevin" style={{marginTop:'-10vh', marginLeft:'30vw', position:'relative', zIndex:'-5'}}/>
       </div>
       <div className="GifGuion">
-      <img src={twelve} alt="guió literari"/>
+      <video autoPlay loop src={guion} alt="guió literari"/>
       <p>
           Nos cuenta la historia de Ada, una chica de
           dieciocho años que vive con su madre Bea
@@ -82,10 +86,10 @@ function Oasis() {
         </p>
       </div>
       <div className="Carteles">
-        <img src={cartel1} alt="cartells"/> 
-        <img src={cartel2} alt="cartells"/> 
-        <img src={cartel3} alt="cartells"/> 
-        <img src={cartel4} alt="cartells"/> 
+        <img src={carteltodos} alt="Cartel con todos los actores del corto"/> 
+        <img src={cartelada} alt="Cartel de Ada"/> 
+        <img src={cartelkevin} alt="Cartel de Kevin"/> 
+        <img src={carteladabea} alt="Cartel de Ada y Bea"/> 
       </div>
       <div className="TextoPlat">
         Se expresa a través de cuatro plataformas:
@@ -113,24 +117,24 @@ function Oasis() {
           <img src={revista4} alt="revista 4"/>
       </div>
       <div className="OasisProducts">
-          <img alt="italian trulli" src={quad1}/>
-          <video autoPlay loop src={quad4} alt="trulli"/>
-          <video autoPlay loop src={quad7} alt="italian trulli"/>
-          <video autoPlay loop src={quad2} alt="trulli"/>
-          <img alt="italian trulli" src={quad5}/>
-          <video autoPlay loop src={quad8} alt="italian trulli"/>
-          <video autoPlay loop src={quad3} alt="trulli"/>
-          <video autoPlay loop src={quad6} alt="italian trulli"/>        
-          <img alt="calendario" src={quad9}/>
+          <img alt="Lampara plasma oasis" src={lampara}/>
+          <video autoPlay loop src={vacaciones} alt="Vacaciones logo oasis"/>
+          <video autoPlay loop src={tele} alt="Tele logo OASIS"/>
+          <video autoPlay loop src={rayos} alt="Rayos oasis"/>
+          <img alt="Oasis neon" src={neon}/>
+          <video autoPlay loop src={primavera} alt="Primavera"/>  
+          <video autoPlay loop src={pastillas} alt="Pastillas logo OASIS"/>
+          <video autoPlay loop src={taza} alt="Taza logo OASIS"/>
+          <img alt="Menú calendario mensual" src={menu}/>
       </div>
       <div className="OasisFilter">
-        <video autoPlay loop src={petra} alt="filtergif"/>
+        <video autoPlay loop src={filtro} alt="Video ejemplo del filtro"/>
       </div>
       <div className="OasisHab">
-        <video autoPlay loop src={habitacio} alt="habitacionada"/>
+        <video autoPlay loop src={habitacion} alt="Habitación de Ada"/>
       </div>
       <div className="FotoEquipo">
-        <img src={equip} alt="foto del equipo"/>
+        <img src={equipo} alt="foto del equipo"/>
       </div>
       <div className="TextEquipo">
         <p>

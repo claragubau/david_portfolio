@@ -1,8 +1,12 @@
 import React from 'react';
+import '../MainPage/MainPage.css'
 import './TresRosas.css'
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
-import '../MainPage/MainPage.css'
+
+import portada from './images/PNG_PORTADA_TRESROSAS.png'
+import claqueta from './images/PNG_CLAQUETA_TRESROSAS.png'
+import actriz from './images/PNG_ACTRIU_TRESROSAS.png'
 
 
 function TresRosas() {

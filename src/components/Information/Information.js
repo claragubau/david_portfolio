@@ -46,7 +46,7 @@ class Information extends Component{
           +34 628 74 22 02
           <br/>
           <Mailto email="davidalsinamercier@gmail.com">
-            davidalsinamercier@gmail.com
+            <u>davidalsinamercier@gmail.com</u>
           </Mailto>
           </p>
           <p className="Desarrollada">
