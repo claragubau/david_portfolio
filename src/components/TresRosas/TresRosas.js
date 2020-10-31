@@ -28,7 +28,7 @@ function TresRosas() {
           <img src={rightarrow} alt="arrow"/> 
         </a>
       </div>
-      <div className="Portada">
+      <div className="PortadaRosas">
         <img src={portada} alt="Portada Tres Rosas"/>
         <p>
           <i>TRES ROSAS</i> es un cortometraje de ficción que nace del
@@ -45,7 +45,7 @@ function TresRosas() {
       <div className="Lavabo">
         <img src={wc} alt="actriz en el baño"/>
       </div>
-      <p className="Texto">
+      <p className="TextoRosas">
       Sexo duro, sadismo y violencia heterosexual matrimonial
       hablan de la peor experiencia para Zita, fiel a su Santa.
       Con sentimiento de liberación como impulso, se lanza a
@@ -64,7 +64,7 @@ function TresRosas() {
         <img src={caja} alt="caja tres rosas"/>
       </div> 
       <img src={cotxe} alt="coche tres rosas" className="Coche"/>
-      <div className="Equipo">
+      <div className="EquipoRosas">
       <p >
         <b>Idea, guión y dirección</b>: David Alsina
         <br/>

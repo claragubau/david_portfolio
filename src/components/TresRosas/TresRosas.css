@@ -1,17 +1,16 @@
-.Portada{
+.PortadaRosas{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    margin-top: 10vh;
 }
-.Portada img{
+.PortadaRosas img{
     width: 100%;
     height: auto;
 }
 
-.Portada p{
+.PortadaRosas p{
     width: 50vw;
     font-size: 2vw;
     margin-top: 17.5vh;
@@ -48,7 +47,7 @@
     height: auto;
 }
 
-.Texto{
+.TextoRosas{
     margin-top: 17.5vh;
     margin-left: 7.5vw;
     font-size: 2vw;
@@ -73,8 +72,9 @@
     margin-top: 17.5vh;
 }
 
-.Equipo{
-    margin-bottom: 17.5vh;
+.EquipoRosas{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     font-size: 2vw;
     display: flex;
     justify-content: center;

@@ -129,16 +129,16 @@
     height: auto;
 }
 
-.FotoEquipo{
+.EquipoOasis{
     display: flex;
     justify-content: center;
     margin-top: 17.5vh;
 }
-.FotoEquipo img{
+.EquipoOasis img{
     width: 70vw;
     height: auto;
 }
-.TextEquipo{
+.TextoEquipoOasis{
     display: flex;
     justify-content: center;
     text-align: center;

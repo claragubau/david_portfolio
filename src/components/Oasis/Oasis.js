@@ -133,10 +133,10 @@ function Oasis() {
       <div className="OasisHab">
         <video autoPlay loop src={habitacion} alt="Habitación de Ada"/>
       </div>
-      <div className="FotoEquipo">
+      <div className="EquipoOasis">
         <img src={equipo} alt="foto del equipo"/>
       </div>
-      <div className="TextEquipo">
+      <div className="TextoEquipoOasis">
         <p>
           <b>Idea, guión y dirección:</b> David Alsina
           <br/>
