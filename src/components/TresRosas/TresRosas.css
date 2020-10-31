@@ -1,0 +1,84 @@
+.Portada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Portada img{
+    width: 100%;
+    height: auto;
+}
+
+.Portada p{
+    width: 50vw;
+    font-size: 2vw;
+    margin-top: 17.5vh;
+}
+
+.CocheyActriz{
+    margin-top: 17.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.CocheyActriz img{
+    padding: 8px;
+    width: 55vw;
+}
+
+.Mesa {
+    margin-top: 17.5vh;
+    width: 77.5vw;
+    height: auto;
+}
+
+.Lavabo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+
+.Lavabo img{
+    width: 77.5vw;
+    height: auto;
+}
+
+.Texto{
+    margin-top: 17.5vh;
+    margin-left: 7.5vw;
+    font-size: 2vw;
+    width: 53vw;
+}
+
+.Cajas{
+    margin-top:17.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cajas img{
+    width:"40vw";
+    height:"auto";
+}
+
+.Coche{
+    width: 100%;
+    height: auto;
+    margin-top: 17.5vh;
+}
+
+.Equipo{
+    margin-bottom: 17.5vh;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
