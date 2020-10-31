@@ -55,6 +55,7 @@ function Lectura() {
         </p>
 
       </div>
+      <iframe src="https://youtu.be/pFx7qr_dP-Y" title="trailer" className="VideoLO"/>
   </div>
   );
 }
