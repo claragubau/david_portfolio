@@ -73,7 +73,7 @@ function Oasis() {
         <img src={kevin} alt="kevin" style={{marginTop:'-10vh', marginLeft:'30vw', position:'relative', zIndex:'-5'}}/>
       </div>
       <div className="GifGuion">
-      <video autoPlay loop src={guion} alt="guió literari"/>
+      <video autoPlay muted loop src={guion} alt="guió literari"/>
       <p>
           Nos cuenta la historia de Ada, una chica de
           dieciocho años que vive con su madre Bea
@@ -118,20 +118,20 @@ function Oasis() {
       </div>
       <div className="OasisProducts">
           <img alt="Lampara plasma oasis" src={lampara}/>
-          <video autoPlay loop src={vacaciones} alt="Vacaciones logo oasis"/>
-          <video autoPlay loop src={tele} alt="Tele logo OASIS"/>
-          <video autoPlay loop src={rayos} alt="Rayos oasis"/>
+          <video autoPlay muted loop src={vacaciones} alt="Vacaciones logo oasis"/>
+          <video autoPlay muted loop src={tele} alt="Tele logo OASIS"/>
+          <video autoPlay muted loop src={rayos} alt="Rayos oasis"/>
           <img alt="Oasis neon" src={neon}/>
-          <video autoPlay loop src={primavera} alt="Primavera"/>  
-          <video autoPlay loop src={pastillas} alt="Pastillas logo OASIS"/>
-          <video autoPlay loop src={taza} alt="Taza logo OASIS"/>
+          <video autoPlay muted loop src={primavera} alt="Primavera"/>  
+          <video autoPlay muted loop src={pastillas} alt="Pastillas logo OASIS"/>
+          <video autoPlay muted loop src={taza} alt="Taza logo OASIS"/>
           <img alt="Menú calendario mensual" src={menu}/>
       </div>
       <div className="OasisFilter">
-        <video autoPlay loop src={filtro} alt="Video ejemplo del filtro"/>
+        <video autoPlay muted loop src={filtro} alt="Video ejemplo del filtro"/>
       </div>
       <div className="OasisHab">
-        <video autoPlay loop src={habitacion} alt="Habitación de Ada"/>
+        <video autoPlay muted loop src={habitacion} alt="Habitación de Ada"/>
       </div>
       <div className="EquipoOasis">
         <img src={equipo} alt="foto del equipo"/>

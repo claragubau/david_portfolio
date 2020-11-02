@@ -13,31 +13,31 @@ function MainPage() {
           <div className="hover-title">
             <a href={"/portfolio/#/oasis"}>OASIS<sup>.MOV</sup></a>
           </div>
-          <div className="hover-image"><video autoPlay loop alt="italian trulli" src={oasis}/></div>
+          <div className="hover-image"><video autoPlay muted loop alt="italian trulli" src={oasis}/></div>
           <br/>
 
           <div className="hover-title">
             <a href={"/portfolio/#/ego"}>EGO EL MANUAL<sup>.TXT+IMG</sup></a>
           </div>
-          <div className="hover-image"><video autoPlay loop alt="italian trulli" src={lectura}/></div>
+          <div className="hover-image"><video autoPlay muted loop alt="italian trulli" src={lectura}/></div>
           <br/>
 
           <div className="hover-title">
             <a href={"/portfolio/#/lidia"}>LÍDIA OLIU PSICOLOGÍA<sup>.IMG</sup></a>
           </div>
-          <div className="hover-image"><video autoPlay loop alt="italian trulli" src={lectura}/></div>
+          <div className="hover-image"><video autoPlay muted loop alt="italian trulli" src={lectura}/></div>
           <br/>
 
           <div className="hover-title">
             <a href={"/portfolio/#/tresrosas"}>TRES ROSAS<sup>.MOV</sup></a>
           </div>
-          <div className="hover-image"><video autoPlay loop alt="rosas" src={tresrosas}/></div>
+          <div className="hover-image"><video autoPlay muted loop alt="rosas" src={tresrosas}/></div>
           <br/>
 
           <div className="hover-title">
             <a href={"/portfolio/#/lectura"}>LECTURA OBLIGATORIA<sup>.MOV</sup></a>
           </div>
-          <div className="hover-image"><video autoPlay loop alt="italian trulli" src={lectura}/></div>
+          <div className="hover-image"><video autoPlay muted loop alt="italian trulli" src={lectura}/></div>
           <br/>
       </div>
       <div className='Information'>
