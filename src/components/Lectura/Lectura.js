@@ -56,7 +56,7 @@ function Lectura() {
         </p>
       </div>
       <div className="VideoLO">
-        <ReactPlayer url="https://youtu.be/pFx7qr_dP-Y" className="VideoLO" width="80vw" height="90vh"/>
+        <ReactPlayer url="https://youtu.be/pFx7qr_dP-Y" className="VideoLO" width="80vw" height="95vh"/>
       </div>
   </div>
   );

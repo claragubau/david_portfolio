@@ -23,7 +23,7 @@ function MainPage() {
           <br/>
 
           <div className="hover-title">
-            <a href={"/portfolio/#/lidia"}>LÍDIA OLIU PSICOLOGIA<sup>.IMG</sup></a>
+            <a href={"/portfolio/#/lidia"}>LÍDIA OLIU PSICOLOGÍA<sup>.IMG</sup></a>
           </div>
           <div className="hover-image"><video autoPlay loop alt="italian trulli" src={lectura}/></div>
           <br/>

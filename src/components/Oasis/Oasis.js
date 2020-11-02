@@ -60,7 +60,7 @@ function Oasis() {
         <img src={adaybea} alt="Ada y Bea"/>
         <p>
           <i>OASIS</i> es un proyecto transmedia creado por seis
-          estudiantes de la <i>Escuela Univeristaria ERAM</i>, que plantea
+          estudiantes de la <i>Escuela Universitaria ERAM</i>, que plantea
           una historia sobre el estado de ignorancia consciente como 
           forma de vida, sobre la intervención de fuentes externas que 
           impiden llegar a la esencia de la realidad, y sobre la dificultad
