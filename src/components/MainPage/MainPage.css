@@ -1,5 +1,6 @@
 .Fixed {
   text-align: left;
+  cursor: url(cursor2.png), auto;
 }
 
 .Name{
@@ -14,9 +15,11 @@ a{
   text-decoration: none;
   text-transform: none;
   color:black;
+  cursor: url(/src/cursor2.png), auto;
 }
 a:hover{
   font-style: italic;
+  cursor: url(/src/cursor2.png), auto;
 }
 a:visited{
   text-decoration: none;
