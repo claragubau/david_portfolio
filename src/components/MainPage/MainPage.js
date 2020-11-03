@@ -7,6 +7,7 @@ import tresrosas from './images/MP4_TRESROSAS_HOME.mp4'
 
 function MainPage() {
   return (
+    <div>
     <div className="Fixed">
       <div className='Name'>DAVID ALSINA MERCIER</div>
       <div className='Center'>
@@ -43,6 +44,7 @@ function MainPage() {
       <div className='Information'>
         <a href={"/portfolio/#/info"}>INFO</a>
       </div>
+    </div>
     </div>
   );
 }

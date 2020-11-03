@@ -14,18 +14,11 @@ const TresRosas = React.lazy(() => import('./components/TresRosas/TresRosas'));
 // const renderLoader = () => <div className="loader"></div>;
 
 function App() {
-  let mouseCursor = document.querySelector(".cursor")
-  // let lis = document.querySelectorAll("li")
-
-  window.addEventListener("mousemove", cursor)
-  function cursor(e){
-    mouseCursor.style.top = e.pageY + "px"
-    mouseCursor.style.left = e.pageX + "px"
-  }
 
   
   //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
-  return (   
+  return (
+       
     <React.Suspense fallback={<div></div>}> 
     <div>
       <HashRouter basename="/">

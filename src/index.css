@@ -1,6 +1,3 @@
-*{
-  cursor: none;
-}
 
 body {
   margin: 0;
@@ -8,7 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
+  width: 100%;
+  cursor: url(cursor2.png), auto;
 }
 
 @font-face{
@@ -25,14 +23,4 @@ body {
   src: local("HelveticaNeueBold"), url('./fonts/HelveticaNeueBold.ttf') format("truetype");
   font-style: bold;
 }
-.cursor{
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 0px solid #FFFF02;
-  background: #FFFF02;
-  border-radius: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 50;
-}
+
