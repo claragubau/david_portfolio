@@ -1,6 +1,5 @@
 .Fixed {
   text-align: left;
-  cursor: url(cursor2.png), auto;
 }
 
 .Name{
@@ -15,11 +14,10 @@ a{
   text-decoration: none;
   text-transform: none;
   color:black;
-  cursor: url(/src/cursor2.png), auto;
+  cursor: url(cursor2.png), auto;
 }
 a:hover{
   font-style: italic;
-  cursor: url(/src/cursor2.png), auto;
 }
 a:visited{
   text-decoration: none;
@@ -62,7 +60,6 @@ a:visited{
   margin-top: 27.5vh;
   margin-left: auto;
   margin-right: auto;
-  cursor: url("https://svg-clipart.com/clipart/yellow/dWQr9hf-yellow-dot-clipart.png"), auto;
 }
 .Center img{
   height: 75vh;
@@ -86,7 +83,6 @@ a:visited{
 .hover-title {
   display: inline;
   pointer-events: auto;
-  cursor: pointer;
 }
 .hover-title:hover{
   font-style: italic;
