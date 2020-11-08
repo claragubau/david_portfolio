@@ -10,6 +10,10 @@ import rightarrow from '../../images/FLETXA_INFO_D.png'
 
 import portada from './images/PNG_PORTADA_EGO.jpg'
 import bienvenida from './images/PNG_BIENVENIDA_EGO.jpg'
+import inicio from './images/PNG_INICIO_EGO.jpg'
+import hola from './images/PNG_HOLA_EGO.jpg'
+import joc from './images/PNG_JOC_EGO.jpg'
+import ups from './images/PNG_UPS_EGO.jpg'
 
 function Ego() {
   return (
@@ -39,6 +43,16 @@ function Ego() {
         </p>
       </div>
       <img src={bienvenida} alt="foto bienvenida" className="Bienvenida"/>
+      <div className="InicioEgo">
+        <div className="InicioFlex">
+          <img src={inicio} alt="inicio rapido libro" style={{paddingRight:"8px"}}/>
+          <img src={hola} alt="hola este es ego" style={{paddingLeft:"8px"}}/>
+        </div>
+      </div>
+      <div className="JuegoEgo">
+        <img src={joc} alt="foto juego" style={{paddingBottom:"8px"}}/>
+        <img src={ups} alt="foto ups" style={{paddingTop:"8px"}}/>
+      </div>
   </div>
   );
 }

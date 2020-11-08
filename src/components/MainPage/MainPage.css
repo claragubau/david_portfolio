@@ -1,48 +1,6 @@
 .Fixed {
   text-align: left;
 }
-.Name{
-  position: fixed;
-  top: 3vh;
-  left: 3vw;
-  font-size: 2.5vw;
-  font-style: normal;
-}
-a{
-  text-decoration: none;
-  text-transform: none;
-  color:black;
-  cursor: url(cursor2.png), none;
-  overflow: auto;
-}
-a:hover{
-  font-style: italic;
-}
-a:visited{
-  text-decoration: none;
-  color: black;
-}
-.LeftArrow{
-  position: fixed;
-  bottom: 5vh;
-  left: 3vw;
-  z-index: 6;
-  list-style-type: none;
-}
-.LeftArrow img{
-  height: 3vw;
-}
-.RightArrow{
-  position: fixed;
-  bottom: 5vh;
-  right: 3vw;
-  z-index: 6;
-  list-style-type: none;
-}
-.RightArrow img{
-  height: 3vw;
-}
-
 
 .Information{
   position: fixed;
@@ -60,15 +18,6 @@ a:visited{
   transform: translate(-47.5%, -47.5%);
   text-align: center;
 }
-/* 
-
-.Center img{
-  height: 75vh;
-}
-
-.Center video{
-  height: 65vh;
-} */
 
 .Center br{
   display: block;

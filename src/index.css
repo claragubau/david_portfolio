@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
-  cursor: url(cursor2.png), none;
+  cursor: url(cursor2.png) 25 25, none;
 }
 
 @font-face{
@@ -24,3 +24,44 @@ body {
   font-style: bold;
 }
 
+.Name{
+  position: fixed;
+  top: 3vh;
+  left: 3vw;
+  font-size: 2.5vw;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  text-transform: none;
+  color:black;
+  cursor: url(cursor2.png) 25 25, none;
+  overflow: auto;
+}
+a:hover{
+  font-style: italic;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+.LeftArrow{
+  position: fixed;
+  bottom: 5vh;
+  left: 3vw;
+  z-index: 6;
+  list-style-type: none;
+}
+.LeftArrow img{
+  height: 3vw;
+}
+.RightArrow{
+  position: fixed;
+  bottom: 5vh;
+  right: 3vw;
+  z-index: 6;
+  list-style-type: none;
+}
+.RightArrow img{
+  height: 3vw;
+}

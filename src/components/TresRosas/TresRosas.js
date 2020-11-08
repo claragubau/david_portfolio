@@ -1,6 +1,7 @@
 import React from 'react';
 import '../MainPage/MainPage.css'
 import './TresRosas.css'
+import '../../index.css'
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
 
