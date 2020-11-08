@@ -10,3 +10,14 @@
     width: 100%;
     height: auto;
 }
+
+.EgoPortada p{
+    width: 40vw;
+    font-size: 2vw;
+    margin-top: 17.5vh;
+    margin-left: -10vw;
+}
+
+.Bienvenida{
+    margin-top: 17.5vh;
+}

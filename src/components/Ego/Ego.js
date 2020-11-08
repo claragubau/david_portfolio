@@ -9,11 +9,12 @@ import rightarrow from '../../images/FLETXA_INFO_D.png'
 // fotos de la página
 
 import portada from './images/PNG_PORTADA_EGO.jpg'
+import bienvenida from './images/PNG_BIENVENIDA_EGO.jpg'
 
 function Ego() {
   return (
     <div>
-      <div className='Name'>
+      <div id={"top"} className='Name'>
         <a href={"/portfolio/#/"}>DAVID ALSINA MERCIER</a>
       </div>
       <div className='LeftArrow'>
@@ -33,9 +34,11 @@ function Ego() {
         evidencia y ridiculiza el ego de la sociedad.
         Se trata de un manual de instrucciones para
         aprender a manejar nuestro propio ego.
+        <br/>
         Porque... ¿Alguien sabe como funciona?
         </p>
       </div>
+      <img src={bienvenida} alt="foto bienvenida" className="Bienvenida"/>
   </div>
   );
 }

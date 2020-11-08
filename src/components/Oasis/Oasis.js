@@ -52,7 +52,7 @@ function Oasis() {
         </a>
       </div>
       <div className='RightArrow'>
-        <a href={"/portfolio/#/ego"}>
+        <a href={"/portfolio/#/ego#top"}>
           <img src={rightarrow} alt="arrow"/> 
         </a>
       </div>
