@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../../index.css'
 import '../MainPage/MainPage.css'
 import './Ego.css'
@@ -15,7 +15,8 @@ import hola from './images/PNG_HOLA_EGO.jpg'
 import joc from './images/PNG_JOC_EGO.jpg'
 import ups from './images/PNG_UPS_EGO.jpg'
 
-function Ego() {
+class Ego extends Component {
+  render(){
   return (
     <div>
       <div id={"top"} className='Name'>
@@ -55,6 +56,7 @@ function Ego() {
       </div>
   </div>
   );
+  }
 }
 
 export default Ego;

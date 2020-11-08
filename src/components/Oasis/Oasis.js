@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../../index.css'
 import './Oasis.css'
 import '../MainPage/MainPage.css'
@@ -40,7 +40,12 @@ import habitacion from './oasis_photos/MP4_INSTALACIO_OASIS.mp4'
 import equipo from './oasis_photos/PNG_EQUIP_OASIS.png'
 
 
-function Oasis() {
+export default class Oasis extends Component{
+  componentDidUpdate() {
+    window.scrollTo(0,0);
+  }
+  
+  render(){
   return (
     <div>
       <div className='Name' style={{zIndex:6}}>
@@ -154,6 +159,5 @@ function Oasis() {
 
     </div>
   );
+  }
 }
-
-export default Oasis;

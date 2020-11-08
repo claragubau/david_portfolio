@@ -5,9 +5,9 @@ import './Information.css'
 import lateral from '../../images/FOTO_INFO.png'
 import Arrow from '../../images/FLETXA_INFO.png'
 
-const Mailto = ({ email, subject, body, children }) => {
+const Mailto = ({ email, children }) => {
   return (
-    <a href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}&body=${encodeURIComponent(body) || ''}`}>{children}</a>
+    <a href={`mailto:${email}`}>{children}</a>
   );
 };
 
@@ -50,7 +50,7 @@ class Information extends Component{
           </Mailto>
           </p>
           <p className="Desarrollada">
-            Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/claragubau" style={{textDecoration:"underline"}}>
+            Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/clara-gubau-2486ab149" style={{textDecoration:"underline"}}>
             Clara Gubau Gubert
             </a>
           </p>
