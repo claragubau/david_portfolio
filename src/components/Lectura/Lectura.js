@@ -55,9 +55,7 @@ function Lectura() {
           temas y disciplinas.
         </p>
       </div>
-      <div className="VideoLO">
-        <ReactPlayer url="https://youtu.be/pFx7qr_dP-Y" className="VideoLO" width="80vw" height="95vh"/>
-      </div>
+      <ReactPlayer url="https://youtu.be/pFx7qr_dP-Y" className="VideoLO" width="80vw" height="95vh"/>
   </div>
   );
 }

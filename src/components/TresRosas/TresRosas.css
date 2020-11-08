@@ -51,7 +51,7 @@
     margin-top: 17.5vh;
     margin-left: 7.5vw;
     font-size: 2vw;
-    width: 53vw;
+    width: 52vw;
 }
 
 .Cajas{
@@ -62,8 +62,8 @@
 }
 
 .Cajas img{
-    width:"40vw";
-    height:"auto";
+    width: 70vw;
+    height:auto;
 }
 
 .Coche{

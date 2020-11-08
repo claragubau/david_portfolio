@@ -1,9 +1,14 @@
 import React from 'react';
 import '../../index.css'
+import '../MainPage/MainPage.css'
 import './Ego.css'
+
 import leftarrow from '../../images/FLETXA_INFO.png'
 import rightarrow from '../../images/FLETXA_INFO_D.png'
-import '../MainPage/MainPage.css'
+
+// fotos de la página
+
+import portada from './images/PNG_PORTADA_EGO.jpg'
 
 function Ego() {
   return (
@@ -20,6 +25,16 @@ function Ego() {
         <a href={"/portfolio/#/lidia"}>
           <img src={rightarrow} alt="arrow"/> 
         </a>
+      </div>
+      <div className="EgoPortada">
+        <img src={portada} alt="Portada Ego"/> 
+        <p>
+        <i>EGO, EL MANUAL</i> es un producto editorial que
+        evidencia y ridiculiza el ego de la sociedad.
+        Se trata de un manual de instrucciones para
+        aprender a manejar nuestro propio ego.
+        Porque... ¿Alguien sabe como funciona?
+        </p>
       </div>
   </div>
   );

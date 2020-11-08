@@ -1,0 +1,12 @@
+.EgoPortada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.EgoPortada img{
+    width: 100%;
+    height: auto;
+}

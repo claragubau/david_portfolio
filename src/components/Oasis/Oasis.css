@@ -34,20 +34,19 @@
     position: static;
     margin-top: 17.5vh;
     display: flex;
+    flex-direction: row;
 }
 
-.GifGuion img{
+.GifGuion video{
     width: 40vw;
     height: auto;
-    flex: 35%;
 }
 
 .GifGuion p{
     margin-left: 3.5vw;
     position: relative;
-    margin-right: 25vw;
     margin-top: 10vh;
-    flex: 75%;
+    width: 27.5vw;
     font-size: 1.9vw;
 }
 
