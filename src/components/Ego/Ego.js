@@ -15,6 +15,10 @@ import hola from './images/PNG_HOLA_EGO.jpg'
 import joc from './images/PNG_JOC_EGO.jpg'
 import ups from './images/PNG_UPS_EGO.jpg'
 
+import vaya from './images/PNG_VAYA_EGO.jpg'
+import nohagas from './images/PNG_NOHAGAS_EGO.jpg'
+import narciso from './images/PNG_NARCISO_EGO.jpg'
+
 class Ego extends Component {
   render(){
   return (
@@ -53,6 +57,11 @@ class Ego extends Component {
       <div className="JuegoEgo">
         <img src={joc} alt="foto juego" style={{paddingBottom:"8px"}}/>
         <img src={ups} alt="foto ups" style={{paddingTop:"8px"}}/>
+      </div>
+      <div className="VayaEgo">
+        <img src={vaya} alt="Vaya foto ego" style={{paddingBottom:"8px"}}/>
+        <img src={narciso} alt="Narciso foto ego" style={{paddingTop:"8px"}}/>
+        <img src={nohagas} alt="No hagas lo que no" style={{paddingLeft:"8px"}} />
       </div>
   </div>
   );
