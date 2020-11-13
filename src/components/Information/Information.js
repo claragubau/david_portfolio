@@ -5,12 +5,11 @@ import './Information.css'
 import lateral from '../../images/FOTO_INFO.png'
 import Arrow from '../../images/FLETXA_INFO.png'
 
-const Mailto = ({ email, children }) => {
-  return (
-    <a href={`mailto:${email}`}>{children}</a>
-  );
-};
-
+// const Mailto = ({ email, children }) => {
+//   return (
+//     <a href={`mailto:${email}`}>{children}</a>
+//   );
+// };
 
 
 class Information extends Component{
@@ -45,9 +44,10 @@ class Information extends Component{
           <p style={{marginTop:"1vh"}}> 
           +34 628 74 22 02
           <br/>
-          <Mailto email="davidalsinamercier@gmail.com">
+          {/* <Mailto email="davidalsinamercier@gmail.com">
             <u>davidalsinamercier@gmail.com</u>
-          </Mailto>
+          </Mailto> */}
+          <a href="mailto:davidalsinamercier@gmail.com"><u>avidalsinamercier@gmail.com</u></a>
           </p>
           <p className="Desarrollada">
             Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/clara-gubau-2486ab149" style={{textDecoration:"underline"}}>

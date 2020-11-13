@@ -57,6 +57,7 @@ class Ego extends Component {
         <p>
         <i>EGO, EL MANUAL</i> es un producto editorial que
         evidencia y ridiculiza el ego de la sociedad.
+        <br/>
         Se trata de un manual de instrucciones para
         aprender a manejar nuestro propio ego.
         <br/>
@@ -75,11 +76,11 @@ class Ego extends Component {
         <img src={ups} alt="foto ups" style={{paddingTop:"8px"}}/>
       </div>
       <div className="VayaEgo">
-        <div className="prova1ego">
+        <div className="Col1Ego">
           <img src={vaya} alt="Vaya foto ego" style={{paddingBottom:"8px", paddingRight:"8px"}}/>
           <img src={narciso} alt="Narciso foto ego" style={{paddingTop:"8px", paddingRight:"8px"}}/>
         </div>
-        <div className="prova2ego">
+        <div className="Col2Ego">
         <img src={nohagas} alt="No hagas lo que no" style={{paddingLeft:"8px"}} />       
         </div>
       </div>
@@ -92,7 +93,7 @@ class Ego extends Component {
         <p>
           Construido con ilustraciones y
           diseños que retratan situaciones
-          don de el ego siempre es el
+          donde el ego siempre es el
           protagonista.
           <br/>
           Estructurado como un manual,
