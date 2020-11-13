@@ -26,9 +26,7 @@
 
 .InicioEgo{
     width: 100%;
-
     margin-top: 17.5vh;
-    /* align-items: stretch; */
 }
 
 .InicioFlex{
@@ -52,11 +50,87 @@
 }
 
 .JuegoEgo img{
-    width: 50vw;
+    width: 65vw;
     height: auto;
 }
 
 .VayaEgo{
     margin-top: 17.5vh;
-    margin-bottom: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+.VayaEgo img{
+    height: auto;
+    width: 45vw;
+}
+
+.prova1ego{
+    display: flex;
+    flex-direction: column;
+}
+
+.prova2ego{
+    object-fit: cover;
+}
+
+.TegustaEgo{
+    margin-top: 17.5vh;
+    display: flex;
+
+}
+
+.TegustaEgo img{
+    width: 40vw;
+    height: auto;
+}
+
+.TegustaEgo p{
+    margin-left: 5vw;
+    font-size:  2vw;
+    width: 30vw;
+}
+
+.AlterEgo{
+    margin-top: 17.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AlterEgo img{
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+}
+
+.PesadoEgo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17.5vh;
+}
+
+.PesadoEgo img{
+    width: 60vw;
+    height: auto;
+    padding: 8px;
+}
+
+.GarantiaEgo{
+    margin-top: 17.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.GarantiaEgo img{
+    width: 98%;
+    max-height: 132.5vh;
+    min-width: 0;
+}
+
+.LateralEgo{
+    display: flex;
+    flex-direction: column;
 }
