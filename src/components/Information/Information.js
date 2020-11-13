@@ -47,7 +47,7 @@ class Information extends Component{
           {/* <Mailto email="davidalsinamercier@gmail.com">
             <u>davidalsinamercier@gmail.com</u>
           </Mailto> */}
-          <a href="mailto:davidalsinamercier@gmail.com"><u>avidalsinamercier@gmail.com</u></a>
+          <a href="mailto:davidalsinamercier@gmail.com" target="_blank" rel="noopener noreferrer"><u>davidalsinamercier@gmail.com</u></a>
           </p>
           <p className="Desarrollada">
             Página web desarrollada por <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/clara-gubau-2486ab149" style={{textDecoration:"underline"}}>
