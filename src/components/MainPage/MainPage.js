@@ -31,7 +31,7 @@ function MainPage() {
         <div className="hover-title">
           <a href={"/portfolio/#/lidia"}>LÍDIA OLIU PSICOLOGÍA<sup>.IMG</sup></a>
         </div>
-        <div className="hover-image"><video autoPlay muted loop alt="lectura obligatoria gif" src={lectura}/></div>
+        <div className="hover-image"><video autoPlay muted loop alt="lectura obligatoria gif" src={tresrosas}/></div>
         <br/>
 
         <div className="hover-title">
@@ -43,7 +43,7 @@ function MainPage() {
         <div className="hover-title">
           <a href={"/portfolio/#/lectura"}>LECTURA OBLIGATORIA<sup>.MOV</sup></a>
         </div>
-        <div className="hover-image"><video autoPlay muted loop alt="lectura obligatoria gif" src={lectura}/></div>
+        <div className="hover-image"><video autoPlay muted loop alt="lectura obligatoria gif" src={lectura} style={{height:"70vh"}}/></div>
         <br/>
       </div>
     </div>

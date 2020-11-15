@@ -71,9 +71,9 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 
 .hover-image img {
-  max-width: 75vw!important;
-  max-height: 60vh !important;
+  /* max-width: 75vw!important;
+  max-height: 60vh !important; */
   margin-bottom: 0;
-  height: 62.5vh;
+  height: 75vh;
   width: auto;
 }

@@ -42,7 +42,7 @@ a{
   /* cursor: url(cursor2.png) 25 25, none; */
   /* cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZtJREFUeNrsmoGNwjAMRZNO0NugbNANyG3QDY4bhQmYgQlgA+gE7QbcBu0GPbvnnFDboAKBxFYtfUVCUeQn49hNopUH6zqVwmBAOWhNY+qY3oJqUEnjWev+t3AGAAXoAOqeFK5RhADYgC4eAIbCNTfvADAvApgCMq8ASEG7NwAMtaP88wZRBYCwqp6GgQVyUBMQwgp9yLlDzILRDogMhupGLQhlWG9WU3UncRS3Q4QQinw6zcqZQLvT3bvZnDrRMZFx5ggWIhgyxcN+IFdWoxyh1oALBFp23c5optEYRSWxXSxDCBuV4vqv9aX4Wu+7pj25UbztI6EvO+5mEvo05W55Qt/X3G2NOdJE2lfd1UwiSCcgIuPudwFZQBYQuSCtAI4WQWoBIDWClAJASjERkdPG02HXkTHEERns9rtnDLKXd/hAtmUYjX+f5R3QkX0zisZtX0UcYhNI6Ku2h67iXBc9OPGiOF/09HR/Ez8j64x7nx56JSHiMjSinKl837XzfjAwAOL9hGMCiPejmgmgaJ45aV85pAI/PPsVYAD4orjBDaWBYAAAAABJRU5ErkJggg==) 25 25,auto; */
   /* cursor: url(https://s4.aconvert.com/convert/p3r68-cdx67/ardhd-4qbu6.svg) 25 25 , auto !important; */
-  cursor: url('CURSOR_39x39_150ppi.png') 25 25, auto !important;
+  cursor: url('CURSOR_39x39_150ppi.png') 25 25, none !important;
   overflow: auto;
 }
 a:hover{
