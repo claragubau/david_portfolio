@@ -10,7 +10,7 @@ body {
   /* cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZtJREFUeNrsmoGNwjAMRZNO0NugbNANyG3QDY4bhQmYgQlgA+gE7QbcBu0GPbvnnFDboAKBxFYtfUVCUeQn49hNopUH6zqVwmBAOWhNY+qY3oJqUEnjWev+t3AGAAXoAOqeFK5RhADYgC4eAIbCNTfvADAvApgCMq8ASEG7NwAMtaP88wZRBYCwqp6GgQVyUBMQwgp9yLlDzILRDogMhupGLQhlWG9WU3UncRS3Q4QQinw6zcqZQLvT3bvZnDrRMZFx5ggWIhgyxcN+IFdWoxyh1oALBFp23c5optEYRSWxXSxDCBuV4vqv9aX4Wu+7pj25UbztI6EvO+5mEvo05W55Qt/X3G2NOdJE2lfd1UwiSCcgIuPudwFZQBYQuSCtAI4WQWoBIDWClAJASjERkdPG02HXkTHEERns9rtnDLKXd/hAtmUYjX+f5R3QkX0zisZtX0UcYhNI6Ku2h67iXBc9OPGiOF/09HR/Ez8j64x7nx56JSHiMjSinKl837XzfjAwAOL9hGMCiPejmgmgaJ45aV85pAI/PPsVYAD4orjBDaWBYAAAAABJRU5ErkJggg==) 25 25,auto; */
   /* cursor: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 100' style='enable-background:new 0 0 100 100;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23FFFF00;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='50' cy='50' r='50'/%3E%3C/svg%3E%0A"), none; */
   /* cursor: url(https://s4.aconvert.com/convert/p3r68-cdx67/ardhd-4qbu6.svg) 25 25, auto !important; */
-  cursor: url('http://www.hans-sla.de/wp-content/uploads/2020/04/Cursor-64x64-1.png') 64 64, auto !important;
+  cursor: url('CURSOR_39x39_150ppi.png') 25 25, none !important;
 }
 
 @font-face{
@@ -42,7 +42,7 @@ a{
   /* cursor: url(cursor2.png) 25 25, none; */
   /* cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZtJREFUeNrsmoGNwjAMRZNO0NugbNANyG3QDY4bhQmYgQlgA+gE7QbcBu0GPbvnnFDboAKBxFYtfUVCUeQn49hNopUH6zqVwmBAOWhNY+qY3oJqUEnjWev+t3AGAAXoAOqeFK5RhADYgC4eAIbCNTfvADAvApgCMq8ASEG7NwAMtaP88wZRBYCwqp6GgQVyUBMQwgp9yLlDzILRDogMhupGLQhlWG9WU3UncRS3Q4QQinw6zcqZQLvT3bvZnDrRMZFx5ggWIhgyxcN+IFdWoxyh1oALBFp23c5optEYRSWxXSxDCBuV4vqv9aX4Wu+7pj25UbztI6EvO+5mEvo05W55Qt/X3G2NOdJE2lfd1UwiSCcgIuPudwFZQBYQuSCtAI4WQWoBIDWClAJASjERkdPG02HXkTHEERns9rtnDLKXd/hAtmUYjX+f5R3QkX0zisZtX0UcYhNI6Ku2h67iXBc9OPGiOF/09HR/Ez8j64x7nx56JSHiMjSinKl837XzfjAwAOL9hGMCiPejmgmgaJ45aV85pAI/PPsVYAD4orjBDaWBYAAAAABJRU5ErkJggg==) 25 25,auto; */
   /* cursor: url(https://s4.aconvert.com/convert/p3r68-cdx67/ardhd-4qbu6.svg) 25 25 , auto !important; */
-  cursor: url('http://www.hans-sla.de/wp-content/uploads/2020/04/Cursor-64x64-1.png') 64 64, auto !important;
+  cursor: url('CURSOR_39x39_150ppi.png') 25 25, auto !important;
   overflow: auto;
 }
 a:hover{
