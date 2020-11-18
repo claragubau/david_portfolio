@@ -41,10 +41,7 @@ import equipo from './oasis_photos/PNG_EQUIP_OASIS.png'
 
 
 export default class Oasis extends Component{
-  componentDidUpdate() {
-    window.scrollTo(0,0);
-  }
-  
+ 
   render(){
   return (
     <div>

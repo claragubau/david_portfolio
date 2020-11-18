@@ -13,10 +13,10 @@ const TresRosas = React.lazy(() => import('./components/TresRosas/TresRosas'));
 
 // const renderLoader = () => <div className="loader"></div>;
 
-function App() {
-
+class App extends React.Component {
   
   //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
+  render = () => {
   return (
        
     <React.Suspense fallback={<div></div>}> 
@@ -34,6 +34,7 @@ function App() {
       </HashRouter>
     </div>
     </React.Suspense>
-  );
+  )
+}
 }
 export default App;

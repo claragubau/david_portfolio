@@ -6,7 +6,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
-  cursor: url("CURSOR.png") 25 25, none!important;
+  /* cursor: url("CURSOR.png") 25 25, none!important; */
+}
+
+* {
+  cursor: none;
+}
+
+.cursor {
+  position: fixed;
+  border-radius: 60%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events:none;
+}
+
+.cursors .cursor:nth-child(1) {
+  background-color: yellow;
+  z-index: 100001;
+  height: 45px;
+  width: 45px;
 }
 
 @font-face{
@@ -35,7 +53,7 @@ a{
   text-decoration: none;
   text-transform: none;
   color:black;
-  cursor: url("CURSOR.png") 25 25, none!important;
+  /* cursor: url("CURSOR.png") 25 25, none!important; */
   overflow: auto;
 }
 a:hover{
