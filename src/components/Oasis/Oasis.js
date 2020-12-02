@@ -72,7 +72,7 @@ export default class Oasis extends Component{
       </div>
       <div className="Superpuestas">
         <img src={adabebiendo} alt="Ada bebiendo cafè"/>
-        <img src={kevin} alt="kevin" style={{marginTop:'-10vh', marginLeft:'30vw', position:'relative', zIndex:'-5'}}/>
+        <img src={kevin} alt="kevin" style={{marginTop:'-5%', marginLeft:'35%', position:'relative', zIndex:'-5'}}/>
       </div>
       <div className="GifGuion">
       <video autoPlay muted loop src={guion} alt="guió literari"/>

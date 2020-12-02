@@ -22,7 +22,7 @@ class Information extends Component{
           <img src={Arrow} alt="arrow"/>
         </a></li>
       </div>
-      <div className="Content">
+      <div className="InfoContent">
         <div className="InfoText">
           <p>
             Diseñador visual enfocado en proyectos editoriales,
@@ -39,10 +39,15 @@ class Information extends Component{
             ¿Hablamos?
           </div>
         </div>
-        <div className="Lateral">
-          <img src={lateral} alt="prova" className="LateralPic"/>
-          <p style={{marginTop:"1vh"}}> 
+        <div className="Lateral" style={{flexDirection:"column"}}>
+          <div style={{alignItems:"flex-end"}}>
+            <img src={lateral} alt="prova" className="LateralPic"/>
+          </div>
+          <p style={{marginTop:"3%"}}> 
+          
           +34 628 74 22 02
+          <br/>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/david-alsina-mercier-b824431ba/" style={{textDecoration:"underline"}}>Linkedin</a>, <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/davidalsinamercier" style={{textDecoration:"underline"}}>Behance</a>
           <br/>
           {/* <Mailto email="davidalsinamercier@gmail.com">
             <u>davidalsinamercier@gmail.com</u>
@@ -55,7 +60,7 @@ class Information extends Component{
             </a>
           </p>
         </div>
-      </div>
+        </div>
     </div>
 
     )

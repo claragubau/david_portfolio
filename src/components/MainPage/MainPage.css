@@ -1,3 +1,4 @@
+
 .Fixed {
   text-align: left;
 }
@@ -11,12 +12,14 @@
 
 .Center{
   font-size: 4vw;
-  margin: 0;
-  position: absolute;
-  top: 47.5%;
-  left: 47.5%;
-  transform: translate(-47.5%, -47.5%);
   text-align: center;
+  width: fit-content;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Center br{

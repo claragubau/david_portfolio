@@ -38,24 +38,18 @@ class Prova extends React.Component {
       } = this.state;
   
       return (
-        <div>
         <div
-          className='container'
+          className="container"
           onMouseMove={e => this.handleMouseMove(e)}
         >
 
-          <div className='cursors'>
-            <div 
-              className='cursor'
-              style={{ 
-                left: xMain, 
-                top: yMain,
-              }}
-            />
-          </div>
-          <App/>
-        </div>
-
+        <div className="cursor"
+          style={{ 
+            left: xMain, 
+            top: yMain,
+          }}
+        />
+        <App/>
         </div>
         )
     }

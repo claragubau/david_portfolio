@@ -9,29 +9,31 @@
     height: 3vw;
     width: auto;
 }
-.Content{
+.InfoContent{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.LateralPic{
-    width: auto;
-    height: 60vh;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: 0px;
-    margin-top: 5vh;
+    width: 100%;
 }
 
 .Lateral{
-    margin-right: 5vw;
+    margin-right: 5%;
     text-align: right;
     font-size: 2.25vw;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.LateralPic{
+    width: 50%;
+    height: auto;
+    margin-right: 0px;
+    margin-top: 5vh;
+    align-content: flex-end;
+}
+
+
 .InfoText{
-    width: 55vw;
+    width: 110%;
     font-size: 2.25vw;
     margin-left: 3vw;
 }
