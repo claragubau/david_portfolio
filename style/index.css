@@ -1,84 +1,7 @@
-
-  .Information{
-    position: fixed;
-    bottom: 5vh;
-    right: 4vw;
-    font-size: 2.5vw;
-  }
-  
-  .Center{
-    font-size: 4vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: fit-content;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    
-  }
-  
-  .Center br{
-    display: block;
-    margin-top: -1vh;
-    content: "";
-  }
-  
-  .Center sup{
-    font-size: 2.25vw;
-  }
-  
-  /*PHOTO HOVER*/
-  .hover-title {
-    display: inline;
-    pointer-events: auto;
-  }
-  .hover-title:hover{
-    font-style: italic;
-  }
-  
-  .hover-image {
-    display: none;
-  }
-
- 
-  body:not(.mobile) .hover-title:hover + .hover-image {
-    display: flex;
-    pointer-events: none;
-    font-style: italic;
-  }
-  
-  .hover-image {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    pointer-events: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .hover-image video {
-    margin-bottom: 0;
-    height: 62.5vh;
-    width: auto;
-  }
-  
-  .hover-image img {
-    margin-bottom: 0;
-    height: 75vh;
-    width: auto;
-  }
-
-
-
-  html,
+html,
 body {
   margin: 0;
-  font-family: HelveticaNeue, HelveticaNeueItalic;
+  font-family: HelveticaNeue, HelveticaNeueItalic, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
@@ -88,20 +11,21 @@ body {
 
 @font-face{
   font-family: "HelveticaNeue";
-  src: local("HelveticaNeue"), url("./fonts/HelveticaNeue.ttf") format("truetype");
+  src: local("HelveticaNeue"), url("../fonts/HelveticaNeue.ttf") format("truetype");
 }
 @font-face{
   font-family: "HelveticaNeueItalic";
-  src: local("HelveticaNeueItalic"), url('./fonts/HelveticaNeue-Italic.ttf') format("truetype");
+  src: local("HelveticaNeueItalic"), url('../fonts/HelveticaNeue-Italic.ttf') format("truetype");
   font-style: italic;
 }
 @font-face{
   font-family: "HelveticaNeueBold";
-  src: local("HelveticaNeueBold"), url('./fonts/HelveticaNeueBold.ttf') format("truetype");
+  src: local("HelveticaNeueBold"), url('../fonts/HelveticaNeueBold.ttf') format("truetype");
   font-style: bold;
 }
 
 /* this is the index html css */
+/* this part of css is common in al pages*/
 .Name{
   position: fixed;
   top: 3vh;
@@ -141,4 +65,78 @@ a:visited{
 }
 .RightArrow img{
   height: 3vw;
+}
+
+.Information{
+  position: fixed;
+  bottom: 5vh;
+  right: 4vw;
+  font-size: 2.5vw;
+}
+
+.Center{
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  
+}
+
+.Center br{
+  display: block;
+  margin-top: -1vh;
+  content: "";
+}
+
+.Center sup{
+  font-size: 2.25vw;
+}
+
+/*PHOTO HOVER*/
+.hover-title {
+  display: inline;
+  pointer-events: auto;
+}
+.hover-title:hover{
+  font-style: italic;
+}
+
+.hover-image {
+  display: none;
+}
+
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  display: flex;
+  pointer-events: none;
+  font-style: italic;
+}
+
+.hover-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hover-image video {
+  margin-bottom: 0;
+  height: 62.5vh;
+  width: auto;
+}
+
+.hover-image img {
+  margin-bottom: 0;
+  height: 75vh;
+  width: auto;
 }
