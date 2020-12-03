@@ -11,6 +11,13 @@
     position: static;
 }
 
+.image_on_back{
+    margin-top: -5%;
+    margin-left: 35%;
+    position: relative;
+    z-index: -1;
+}
+
 .FistPhotosText p{
     margin-left: auto;
     font-size: 1.9vw;
