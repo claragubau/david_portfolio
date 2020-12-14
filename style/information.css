@@ -1,0 +1,62 @@
+
+.Back{
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    list-style-type: none;
+}
+
+.Back img{
+    height: 3vw;
+    width: auto;
+}
+.InfoContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Lateral{
+    margin-right: 5%;
+    text-align: right;
+    font-size: 2.25vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+.LateralPic{
+    width: 50%;
+    height: auto;
+    margin-right: 0px;
+    margin-top: 5%;
+    align-content: flex-end;
+}
+
+
+.InfoText{
+    width: 110%;
+    font-size: 2.25vw;
+    margin-left: 3%;
+}
+
+.Hablamos{
+    position: relative;
+    margin-top: 15%;
+    font-size: 2.25vw;
+}
+
+.Desarrollada{
+    font-size: 1.3vw;
+    position: fixed;
+    bottom: 2.5%;
+    right: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-style: italic;
+}

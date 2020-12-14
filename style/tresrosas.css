@@ -11,13 +11,13 @@
 }
 
 .PortadaRosas p{
-    width: 50vw;
+    width: 52.5%;
     font-size: 2vw;
-    margin-top: 17.5vh;
+    margin-top: 9%;
 }
 
 .CocheyActriz{
-    margin-top: 17.5vh;
+    margin-top: 9%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +25,13 @@
     
 }
 .CocheyActriz img{
-    padding: 8px;
-    width: 55vw;
+    padding: 0.5%;
+    width: 60%;
 }
 
 .Mesa {
-    margin-top: 17.5vh;
-    width: 77.5vw;
+    margin-top: 9%;
+    width: 80%;
     height: auto;
 }
 
@@ -39,42 +39,42 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 8px;
+    margin-top: 1%;
 }
 
 .Lavabo img{
-    width: 77.5vw;
+    width: 80%;
     height: auto;
 }
 
 .TextoRosas{
-    margin-top: 17.5vh;
-    margin-left: 7.5vw;
+    margin-top: 9%;
+    margin-left: 10%;
     font-size: 2vw;
-    width: 52vw;
+    width: 50%;
 }
 
 .Cajas{
-    margin-top:17.5vh;
+    margin-top: 9%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .Cajas img{
-    width: 70vw;
+    width: 70%;
     height:auto;
 }
 
 .Coche{
     width: 100%;
     height: auto;
-    margin-top: 17.5vh;
+    margin-top: 9%;
 }
 
 .EquipoRosas{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 4%;
+    margin-bottom: 5%;
     font-size: 2vw;
     display: flex;
     justify-content: center;
