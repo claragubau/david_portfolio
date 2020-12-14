@@ -136,6 +136,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 .hover-image img {
   margin-bottom: 0;
-  height: 75vh;
+  height: 80vh;
   width: auto;
 }

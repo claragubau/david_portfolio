@@ -1,32 +1,26 @@
 .EgoPortada{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: auto;
     margin-top: 10vh;
 }
 
-.EgoPortada img{
-    width: 100%;
-    height: auto;
-}
-
-.EgoPortada p{
-    width: 45vw;
-    font-size: 2vw;
-    margin-top: 17.5vh;
-    margin-left: 0vw;
+.EgoPrimerTexto{
+    font-size: 1.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    width: 50%;
 }
 
 .Bienvenida{
-    margin-top: 17.5vh;
-    width: 65vw;
+    margin-top: 9%;
+    width: 65%;
     height: auto;
 }
 
 .InicioEgo{
     width: 100%;
-    margin-top: 17.5vh;
+    margin-top: 9%;
 }
 
 .InicioFlex{
@@ -41,7 +35,7 @@
 }
 
 .JuegoEgo{
-    margin-top: 17.5vh;
+    margin-top: 9%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -49,81 +43,40 @@
 }
 
 .JuegoEgo img{
-    width: 65vw;
+    width: 65% ;
     height: auto;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.VayaEgo{
-    margin-top: 17.5vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.Col1Ego{
-    display: flex;
-    flex-direction: column;
-}
-.Col1Ego img{
-    height: 40vh;
-}
-
-.Col2Ego{
-    flex-direction: row;
-    display: flex;
-}
-
-.Col2Ego img{
-    height: 80vh;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .TegustaEgo{
-    margin-top: 17.5vh;
+    margin-top: 9%;
     display: flex;
-
+    flex-direction: row;
 }
 
-.TegustaEgo img{
-    width: 40vw;
+.TeGustaImg{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.TeGustaImg img{
+    width: 100%;
     height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-.TegustaEgo p{
-    margin-left: 5vw;
-    font-size:  2vw;
-    width: 30vw;
+.TeGustaTexto{
+    font-size: 1.9vw;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 .AlterEgo{
-    margin-top: 17.5vh;
+    margin-top: 9%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -139,28 +92,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 17.5vh;
+    margin-top: 9%;
 }
 
 .PesadoEgo img{
-    width: 60vw;
+    width: 60%;
     height: auto;
-    padding: 8px;
-}
-
-.GarantiaEgo{
-    margin-top: 17.5vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.GarantiaEgo img{
-    width: 98%;
-    min-width: 0;
+    padding: 0.5%;
 }
 
 .LateralEgo{
     display: flex;
     flex-direction: column;
+}
+
+.EgoContraportada{
+    margin-top: 9%;
+    margin-bottom: 9%;
+    width: 100%;
+    height: auto;
 }
