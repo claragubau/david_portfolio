@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
+  cursor: url("CURSOR_39x39_150ppi.png") 25 25, none;
 }
 
 
@@ -38,6 +39,8 @@ a{
   text-transform: none;
   color:black;
   overflow: auto;
+  cursor: url("CURSOR_39x39_150ppi.png") 25 25, none;
+
 }
 a:hover{
   font-style: italic;
