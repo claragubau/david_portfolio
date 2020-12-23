@@ -29,17 +29,16 @@ body {
 /* this part of css is common in al pages*/
 .Name{
   position: fixed;
-  top: 3vh;
-  left: 3vw;
+  margin-top: 2vh;
+  margin-left: 2vw;
   font-size: 2.5vw;
   font-style: normal;
+  display: block;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .Name{
-    margin-left: auto;
-    margin-right: auto;
     font-size: 5vw;
-    display: block;
   }
 }
 
