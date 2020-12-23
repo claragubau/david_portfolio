@@ -12,6 +12,15 @@
     width: 50%;
 }
 
+@media screen and (max-width : 600px) {
+    .EgoPrimerTexto{
+        width: 75%;
+        font-size: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
 .Bienvenida{
     margin-top: 9%;
     width: 65%;
@@ -23,10 +32,27 @@
     margin-top: 9%;
 }
 
+@media screen and (max-width : 600px) {
+    .InicioEgo{
+        width: 80%;
+    }
+}
+
 .InicioFlex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width : 600px) {
+    .InicioFlex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .InicioFlex img{
+        padding: 1% 1% 1% 1%;
+        display: block;
+    }
 }
 
 .InicioFlex img{

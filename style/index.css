@@ -34,14 +34,23 @@ body {
   font-size: 2.5vw;
   font-style: normal;
 }
+@media screen and (max-width: 600px) {
+  .Name{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vw;
+    display: block;
+  }
+}
+
 a{
   text-decoration: none;
   text-transform: none;
   color:black;
   overflow: auto;
   cursor: url("CURSOR_39x39_150ppi.png") 25 25, none;
-
 }
+
 a:hover{
   font-style: italic;
 }
@@ -92,7 +101,7 @@ a:visited{
 
 .Center br{
   display: block;
-  margin-top: -1vh;
+  margin-top: -1%;
   content: "";
 }
 
@@ -135,10 +144,12 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   margin-bottom: 0;
   height: 62.5vh;
   width: auto;
+  display: block;
 }
 
 .hover-image img {
   margin-bottom: 0;
   height: 80vh;
   width: auto;
+  display: block;
 }
