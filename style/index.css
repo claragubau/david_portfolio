@@ -59,18 +59,19 @@ a:visited{
 }
 .LeftArrow{
   position: fixed;
-  bottom: 5vh;
-  left: 3vw;
+  bottom: 5%;
+  left: 3%;
   z-index: 6;
   list-style-type: none;
 }
 .LeftArrow img{
-  height: 3vw;
+  height: 3vh;
 }
+
 .RightArrow{
   position: fixed;
-  bottom: 5vh;
-  right: 3vw;
+  bottom: 5%;
+  right: 3%;
   z-index: 6;
   list-style-type: none;
 }

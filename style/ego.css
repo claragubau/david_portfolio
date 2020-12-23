@@ -1,7 +1,7 @@
 .EgoPortada{
     width: 100%;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 10%;
 }
 
 .EgoPrimerTexto{
@@ -15,7 +15,7 @@
 @media screen and (max-width : 600px) {
     .EgoPrimerTexto{
         width: 75%;
-        font-size: 5vw;
+        font-size: larger;
         margin-left: 10%;
         margin-right: 10%;
     }

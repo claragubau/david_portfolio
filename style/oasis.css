@@ -1,30 +1,33 @@
-
-.FistPhotosText{
-    width: 100%;
-    position: static;
-    margin-top: 6%;
-}
-
-.FistPhotosText img{
+.PortadaOasis{
     width: 100%;
     height: auto;
     position: static;
+    margin-top: 10vh;
 }
-
-.image_on_back{
-    margin-top: -5%;
-    margin-left: 35%;
-    position: relative;
-    z-index: -1;
+@media screen and (max-width: 600px) {
+    .PortadaOasis{
+        margin-top: 10%;
+    }
 }
-
-.FistPhotosText p{
+.FirstTextOasis{
     margin-left: auto;
-    font-size: 1.9vw;
+    font-size: normal;
     margin-right: auto;
-    width: 60vw;
+    width: 62%;
     margin-top: 9%;
     margin-bottom: 9%;
+}
+
+@media screen and (max-width: 600px) {
+    .FirstTextOasis{
+        font-size: larger;
+        width: 75%;
+    }
+}
+
+.PortadaOasis2{
+    width: 100%;
+    height: auto;
 }
 
 .Superpuestas{
@@ -32,22 +35,39 @@
     margin-top: 9%;
     margin-bottom: 0;
 }
-
+.image_on_back{
+    margin-top: -5%;
+    margin-left: 35%;
+    position: relative;
+    z-index: -1;
+}
 .Superpuestas img{
-    width: 55vw;
+    width: 55%;
     height: auto;
+}
+@media screen and (max-width: 600px) {
+    .Superpuestas img{
+        width: 65%;
+        height: auto;
+    }
 }
 
 .GifGuion{
-    position: static;
     margin-top: 9%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .GifGuion video{
     width: 40%;
     height: auto;
+}
+@media screen and (max-width: 600px) {
+    .GifGuion video{
+        width: 65%;
+        height: auto;
+    }
 }
 
 .GifGuion p{
@@ -55,7 +75,15 @@
     position: relative;
     margin-top: 5%;
     width: 28%;
-    font-size: 1.9vw;
+    font-size: normal;
+}
+@media screen and (max-width: 600px) {
+    .GifGuion p{
+        font-size: larger;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .Carteles{
@@ -66,9 +94,14 @@
 }
 
 .Carteles img{
-    width: 40vw;
+    width: 40%;
     display: block;
     padding: 0.5%;
+}
+@media screen and (max-width: 600px) {
+    .Carteles img{
+        width: 45%;
+    }
 }
 
 .TextoPlat{
@@ -76,12 +109,18 @@
     margin-top: 9%;
     width: 55%;
     margin-left: 9%;
-    font-size: 1.9vw;
+    font-size: medium;
+}
+@media screen and (max-width: 600px) {
+    .TextoPlat{
+        font-size: larger;
+        width: 70%;
+        }
 }
 
 .TextoPlat br{
     display: block;
-    margin-top: 3%;
+    margin-top: 4%;
     content: "";
 }
 
@@ -94,14 +133,26 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 600px) {
+    .OasisRevista{
+        width: 100%;
+    }
+}
 
 .OasisRevista img{
-    width: 35vw;
+    width: 35%;
     height: auto;
     padding-left: 1%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     padding-right: 0;
+}
+@media screen and (max-width: 600px) {
+    .OasisRevista img{
+        width: 48%;
+        padding-right: 1%;
+        padding-top: 2%;
+    }
 }
 
 .OasisProducts{
@@ -112,20 +163,35 @@
 }
 
 .OasisProducts img{
-    width: 25vw;
+    width: 25%;
     padding: 0.5%;
 }
 .OasisProducts video{
-    width: 25vw;
+    width: 25%;
     padding: 0.5%;
+}
+@media screen and (max-width: 600px) {
+    .OasisProducts img{
+        width: 29%;
+        padding: 1%;
+    }
+    .OasisProducts video{
+        width: 29%;
+        padding: 1%;
+    }
 }
 
 .OasisFilter{
     margin-top: 9%;
 }
 .OasisFilter video{
-    width: 40vw;
+    width: 40%;
     height: auto;
+}
+@media screen and (max-width: 600px) {
+    .OasisFilter video{
+        width: 60%;
+    }
 }
 
 .OasisHab{
@@ -135,24 +201,40 @@
     margin-top: -30%;
 }
 .OasisHab video{
-    width: 40vw;
+    width: 40%;
     height: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .OasisHab{
+        margin-top: 9%;
+    }
+    .OasisHab video{
+        width: 60%;
+    }
+}
+
+
 .EquipoOasis{
-    display: flex;
-    justify-content: center;
-    margin-top: 9%;
-}
-.EquipoOasis img{
-    width: 70vw;
+    width: 70%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    display: block;
 }
+
+@media screen and (max-width: 600px) {
+    .EquipoOasis{
+        width: 85%;
+    }
+}
+
 .TextoEquipoOasis{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.9vw;
+    font-size: medium;
     margin-top: 2.5%;
-    margin-bottom: 9%;
+    margin-bottom: 5%;
 }
