@@ -36,9 +36,15 @@ body {
   display: block;
   width: 100%;
 }
+
 @media screen and (max-width: 600px) {
   .Name{
     font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -68,6 +74,12 @@ a:visited{
   height: 7vh;
   width: auto;
 }
+@media screen and (max-width: 600px) {
+  .LeftArrow img{
+    height: 4vh;
+    width: auto;
+  }
+}
 
 .RightArrow{
   position: fixed;
@@ -80,6 +92,13 @@ a:visited{
   height: 7vh;
   width: auto;
 }
+@media screen and (max-width: 600px) {
+  .RightArrow img{
+    height: 4vh;
+    width: auto;
+  }
+}
+
 
 .Information{
   position: fixed;

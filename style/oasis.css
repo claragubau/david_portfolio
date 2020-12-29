@@ -241,5 +241,6 @@
 @media screen and (max-width: 600px){
     .TextoEquipoOasis{
         font-size: larger;
+        margin-bottom: 3vh;
     }
 }
