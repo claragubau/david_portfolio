@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 600px) {
     .PortadaLO{
-        margin-top: 10%;
+        margin-top: 12%;
     }
 }
 
@@ -16,6 +16,12 @@
     margin-top: 9%;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    .PrimerTextoLO{
+        font-size: x-large;
+        width: 80%;
+    }
 }
 
 .Mockups{
@@ -30,6 +36,12 @@
     width: 80%;
     height: auto;
     padding: 0.5%;
+}
+@media screen and (max-width: 600px) {
+    .Mockups img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 .Ojos{
@@ -63,6 +75,12 @@
 .TextoLO p{
     width: 45%;
 }
+@media screen and (max-width: 600px) {
+    .TextoLO p{
+        font-size: x-large;
+        width: 60%;
+    }
+}
 
 .VideoLO{
     margin-top: 9%;
@@ -72,4 +90,10 @@
     margin-bottom: 9%;
     width: 75%;
     height: 80%;
+}
+@media screen and (max-width: 600px) {
+    .VideoLO{
+        width: 100%;
+        height: 40%;
+    }
 }
