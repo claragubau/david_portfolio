@@ -12,7 +12,7 @@
 
 .LidiaText1{
     width: 50%;
-    font-size: 1.9vw;
+    font-size: 1.75em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 9%;
@@ -41,7 +41,7 @@
 
 .SistemaVisual{
     margin-left: 10%;
-    font-size: 1.9vw;
+    font-size: 1.75em;
 }
 @media screen and (max-width: 600px) {
     .SistemaVisual{
@@ -65,7 +65,7 @@
 }
 .Composicion{
     width: 50%;
-    font-size: 1.9vw;
+    font-size: 1.75em;
     margin-left: 22.5%;
 }
 
@@ -100,7 +100,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    font-size: 1.9vw;
+    font-size: 1.75em;
     margin-top: 9%;
     margin-bottom: 9%;
 }

@@ -11,9 +11,9 @@
 }
 .FirstTextOasis{
     margin-left: auto;
-    font-size: x-large;
+    font-size: 1.75em;
     margin-right: auto;
-    width: 62%;
+    width: 55%;
     margin-top: 9%;
     margin-bottom: 9%;
 }
@@ -75,7 +75,7 @@
     position: relative;
     margin-top: 5%;
     width: 28%;
-    font-size: x-large;
+    font-size: 1.75em;
 }
 @media screen and (max-width: 600px) {
     .GifGuion p{
@@ -109,7 +109,7 @@
     margin-top: 9%;
     width: 55%;
     margin-left: 9%;
-    font-size: x-large;
+    font-size: 1.75em;
 }
 @media screen and (max-width: 600px) {
     .TextoPlat{
@@ -234,9 +234,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.75em;
     margin-top: 2.5%;
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
 }
 @media screen and (max-width: 600px){
     .TextoEquipoOasis{
