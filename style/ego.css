@@ -237,6 +237,7 @@
 
 .VayaEgo3 img{
     height: 100%;
+    width: 100%;
 }
 
 
@@ -261,6 +262,7 @@
 
 .GarantiaEgo1 img{
     height: 100%;
+    width: 100%;
 }
 .GarantiaEgo2 {
     grid-column: 2;

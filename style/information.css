@@ -3,17 +3,30 @@
     position: fixed;
     bottom: 5%;
     left: 3%;
+    z-index: 6;
     list-style-type: none;
 }
-
 .Back img{
     height: 7vh;
     width: auto;
 }
+@media screen and (max-width: 600px) {
+    .Back img{
+      height: 4vh;
+      width: auto;
+    }
+}
+
 .InfoContent{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .InfoContent{
+        flex-direction: column;
+    }
 }
 
 .Lateral{
@@ -25,6 +38,15 @@
     margin-bottom: 5%;
     width: 75%;
 }
+@media screen and (max-width: 600px) {
+    .Lateral{
+        font-size: x-large;
+        margin-right: 1%;
+        text-align: right;
+        width: 96%;
+        margin-top: 10%;
+    }
+}
 
 .LateralPic{
     width: 50%;
@@ -33,6 +55,12 @@
     margin-top: 5%;
     align-content: flex-end;
 }
+@media screen and (max-width: 600px) {
+    .LateralPic{
+        display: none;
+    }
+}
+
 
 
 .InfoText{
@@ -40,11 +68,24 @@
     font-size: 2.25vw;
     margin-left: 3%;
 }
+@media screen and (max-width: 600px) {
+    .InfoText{
+        width: 90%;
+        font-size: x-large;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .Hablamos{
     position: relative;
     margin-top: 15%;
     font-size: 2.25vw;
+}
+@media screen and (max-width: 600px) {
+    .Hablamos{
+        font-size: x-large;
+    }
 }
 
 .Desarrollada{
@@ -53,10 +94,9 @@
     bottom: 2.5%;
     right: 5%;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    font-style: italic;
+
+@media screen and (max-width: 600px) {
+    .Desarrollada{
+        font-size: small;
+    }
 }
