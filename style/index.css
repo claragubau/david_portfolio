@@ -65,7 +65,8 @@ a:visited{
   list-style-type: none;
 }
 .LeftArrow img{
-  height: 3vh;
+  height: 7vh;
+  width: auto;
 }
 
 .RightArrow{
@@ -76,7 +77,8 @@ a:visited{
   list-style-type: none;
 }
 .RightArrow img{
-  height: 3vw;
+  height: 7vh;
+  width: auto;
 }
 
 .Information{
