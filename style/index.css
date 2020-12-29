@@ -40,8 +40,6 @@ body {
 @media screen and (max-width: 600px) {
   .Name{
     font-size: 5vw;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +104,14 @@ a:visited{
   right: 4vw;
   font-size: 2.5vw;
 }
-
+@media screen and (max-width: 600px) {
+  .Information{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .Center{
   font-size: 4vw;
   display: flex;
@@ -135,6 +140,12 @@ a:visited{
 
 .Center sup{
   font-size: 2.25vw;
+}
+@media screen and (max-width: 600px) {
+  .Center sup {
+    font-size: 3vw;
+
+  }
 }
 
 /*PHOTO HOVER*/
@@ -168,16 +179,28 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   align-items: center;
   justify-content: center;
 }
+
 .hover-image video {
   margin-bottom: 0;
   height: 62.5vh;
   width: auto;
   display: block;
 }
+@media screen and (max-width: 600px) {
+  .hover-image video{
+    display: none;
+  }
+}
+
 
 .hover-image img {
   margin-bottom: 0;
   height: 80vh;
   width: auto;
   display: block;
+}
+@media screen and (max-width: 600px) {
+  .hover-image img{
+    display: none;
+  }
 }

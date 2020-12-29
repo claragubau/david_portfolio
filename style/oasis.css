@@ -73,7 +73,7 @@
 .GifGuion p{
     margin-left: 5%;
     position: relative;
-    margin-top: 5%;
+    margin-top: 9%;
     width: 28%;
     font-size: 1.75em;
 }
@@ -81,6 +81,7 @@
     .GifGuion p{
         font-size: larger;
         width: 70%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -101,6 +102,7 @@
 @media screen and (max-width: 600px) {
     .Carteles img{
         width: 45%;
+        height: auto;
     }
 }
 
@@ -115,7 +117,8 @@
     .TextoPlat{
         font-size: larger;
         width: 70%;
-        }
+        height: auto;
+    }
 }
 
 .TextoPlat br{
@@ -136,6 +139,7 @@
 @media screen and (max-width: 600px) {
     .OasisRevista{
         width: 100%;
+        height: auto;
     }
 }
 
@@ -150,6 +154,7 @@
 @media screen and (max-width: 600px) {
     .OasisRevista img{
         width: 48%;
+        height: auto;
         padding-right: 1%;
         padding-top: 2%;
     }
@@ -173,10 +178,12 @@
 @media screen and (max-width: 600px) {
     .OasisProducts img{
         width: 29%;
+        height: auto;
         padding: 1%;
     }
     .OasisProducts video{
         width: 29%;
+        height: auto;
         padding: 1%;
     }
 }
@@ -191,6 +198,7 @@
 @media screen and (max-width: 600px) {
     .OasisFilter video{
         width: 60%;
+        height: auto;
     }
 }
 
@@ -211,6 +219,7 @@
     }
     .OasisHab video{
         width: 60%;
+        height: auto;
     }
 }
 
@@ -227,6 +236,7 @@
 @media screen and (max-width: 600px) {
     .EquipoOasis{
         width: 85%;
+        height: auto;
     }
 }
 
