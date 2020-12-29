@@ -20,10 +20,10 @@
 
 @media screen and (max-width : 600px) {
     .EgoPrimerTexto{
-        width: 75%;
-        font-size: larger;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 65%;
+        font-size: x-large;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -31,6 +31,11 @@
     margin-top: 9%;
     width: 65%;
     height: auto;
+}
+@media screen and (max-width: 600px) {
+    .Bienvenida{
+        width: 80%;
+    }
 }
 
 .InicioEgo{
@@ -81,11 +86,22 @@
     padding-bottom: 0.5%;
     padding-top: 0.5%;
 }
+@media screen and (max-width: 600px) {
+    .JuegoEgo img{
+        width: 80%;
+        height: auto;
+    }
+}
 
 .TegustaEgo{
     margin-top: 9%;
     display: flex;
     flex-direction: row;
+}
+@media screen and (max-width: 600px) {
+    .TegustaEgo{
+        flex-direction: column;
+    }
 }
 
 .TeGustaImg{
@@ -100,6 +116,13 @@
     margin-top: 1%;
     margin-bottom: 1%;
 }
+@media screen and (max-width: 600px) {
+    .TeGustaImg{
+        width: 70%;
+        height: auto;
+    }
+
+}
 
 .TeGustaTexto{
     font-size: 1.75em;
@@ -107,6 +130,15 @@
     margin-top: 10%;
     margin-left: 5%;
 }
+@media screen and (max-width: 600px) {
+    .TeGustaTexto{
+        font-size: x-large;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 .AlterEgo{
     margin-top: 9%;
@@ -114,10 +146,25 @@
     flex-direction: row;
     justify-content: space-between;
 }
+@media screen and (max-width: 600px) {
+    .AlterEgo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 .AlterEgo img{
     width: 100%;
     min-width: 0;
+}
+@media screen and (max-width: 600px) {
+    .AlterEgo img{
+        width: 80%;
+        height: auto;
+        padding: 0.5%;
+
+    }
 }
 
 .PesadoEgo{
@@ -127,11 +174,22 @@
     align-items: center;
     margin-top: 9%;
 }
+@media screen and (max-width: 600px) {
+    .PesadoEgo{
+        margin-top: 0;
+    }
+}
+
 
 .PesadoEgo img{
     width: 60%;
     height: auto;
     padding: 0.5%;
+}
+@media screen and (max-width: 600px) {
+    .PesadoEgo img{
+        width: 80%;
+    }
 }
 
 .LateralEgo{
