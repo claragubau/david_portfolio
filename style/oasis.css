@@ -245,12 +245,11 @@
     justify-content: center;
     text-align: center;
     font-size: 1.75em;
-    margin-top: 2.5%;
-    margin-bottom: 5vh;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 @media screen and (max-width: 600px){
     .TextoEquipoOasis{
         font-size: larger;
-        margin-bottom: 3vh;
     }
 }

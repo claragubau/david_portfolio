@@ -21,7 +21,7 @@
 @media screen and (max-width : 600px) {
     .EgoPrimerTexto{
         width: 65%;
-        font-size: x-large;
+        font-size: larger;
         margin-left: auto;
         margin-right: auto;
     }
@@ -132,7 +132,7 @@
 }
 @media screen and (max-width: 600px) {
     .TeGustaTexto{
-        font-size: x-large;
+        font-size: larger;
         width: 65%;
         margin-left: auto;
         margin-right: auto;
