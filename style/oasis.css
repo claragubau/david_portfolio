@@ -64,8 +64,11 @@
     height: auto;
 }
 @media screen and (max-width: 600px) {
+    .GifGuion{
+        flex-direction: column;
+    }
     .GifGuion video{
-        width: 65%;
+        width: 60%;
         height: auto;
     }
 }
