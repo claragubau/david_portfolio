@@ -46,6 +46,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 9%;
+  height: fit-content;
 }
 
 .LidiaCuad img {
