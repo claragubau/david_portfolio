@@ -1,240 +1,239 @@
-.PortadaOasis{
-    width: 100%;
+.PortadaOasis {
+  width: 100%;
+  height: auto;
+  position: static;
+  margin-top: 10vh;
+}
+
+.FirstTextOasis {
+  margin-left: auto;
+  font-size: 1.75em;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 9%;
+}
+
+.PortadaOasis2 {
+  width: 100%;
+  height: auto;
+  margin-top: 9%;
+}
+
+.Superpuestas {
+  position: static;
+  margin-top: 9%;
+  margin-bottom: 0;
+}
+
+.image_on_back {
+  margin-top: -5%;
+  margin-left: 35%;
+  position: relative;
+  z-index: -1;
+}
+
+.Superpuestas img {
+  width: 55%;
+  height: auto;
+}
+
+.GifGuion {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.GifGuion video {
+  width: 40%;
+  height: auto;
+}
+
+.GifGuion p {
+  margin-left: 5%;
+  position: relative;
+  margin-top: 9%;
+  width: 28%;
+  font-size: 1.75em;
+}
+
+.Carteles {
+  margin-top: 9%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Carteles img {
+  width: 40%;
+  display: block;
+  padding: 0.5%;
+}
+
+.TextoPlat {
+  position: static;
+  margin-top: 9%;
+  width: 55%;
+  margin-left: 9%;
+  font-size: 1.75em;
+}
+
+.TextoPlat br {
+  display: block;
+  margin-top: 4%;
+  content: "";
+}
+
+.OasisRevista {
+  position: static;
+  margin-top: 9%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.OasisRevista img {
+  width: 35%;
+  height: auto;
+  padding-left: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-right: 0;
+}
+
+.OasisProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 9%;
+}
+
+.OasisProducts img {
+  width: 25%;
+  padding: 0.5%;
+}
+
+.OasisProducts video {
+  width: 25%;
+  padding: 0.5%;
+}
+
+.OasisFilter {
+  margin-top: 9%;
+}
+
+.OasisFilter video {
+  width: 40%;
+  height: auto;
+}
+
+.OasisHab {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -30%;
+}
+
+.OasisHab video {
+  width: 40%;
+  height: auto;
+}
+
+.EquipoOasis {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+  display: block;
+}
+
+.TextoEquipoOasis {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.75em;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px) {
+  .PortadaOasis {
+    margin-top: 12%;
+  }
+  .FirstTextOasis {
+    font-size: larger;
+    width: 75%;
+  }
+  .Superpuestas img {
+    width: 65%;
     height: auto;
-    position: static;
-    margin-top: 10vh;
-}
-
-.FirstTextOasis{
-    margin-left: auto;
-    font-size: 1.75em;
-    margin-right: auto;
-    width: 55%;
-    margin-top: 9%;
-}
-
-.PortadaOasis2{
-    width: 100%;
+  }
+  .GifGuion {
+    flex-direction: column;
+  }
+  .GifGuion video {
+    width: 60%;
     height: auto;
-    margin-top: 9%;
-}
-
-.Superpuestas{
-    position: static;
-    margin-top: 9%;
-    margin-bottom: 0;
-}
-.image_on_back{
-    margin-top: -5%;
-    margin-left: 35%;
-    position: relative;
-    z-index: -1;
-}
-.Superpuestas img{
-    width: 55%;
-    height: auto;
-}
-
-.GifGuion{
-    margin-top: 9%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.GifGuion video{
-    width: 40%;
-    height: auto;
-}
-
-
-.GifGuion p{
-    margin-left: 5%;
-    position: relative;
-    margin-top: 9%;
-    width: 28%;
-    font-size: 1.75em;
-}
-
-
-.Carteles{
-    margin-top: 9%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.Carteles img{
-    width: 40%;
-    display: block;
-    padding: 0.5%;
-}
-
-.TextoPlat{
-    position: static;
-    margin-top: 9%;
-    width: 55%;
-    margin-left: 9%;
-    font-size: 1.75em;
-}
-
-.TextoPlat br{
-    display: block;
-    margin-top: 4%;
-    content: "";
-}
-
-.OasisRevista{
-    position: static;
-    margin-top: 9%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.OasisRevista img{
-    width: 35%;
-    height: auto;
-    padding-left: 1%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    padding-right: 0;
-}
-
-
-.OasisProducts{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 9%;
-}
-
-.OasisProducts img{
-    width: 25%;
-    padding: 0.5%;
-}
-.OasisProducts video{
-    width: 25%;
-    padding: 0.5%;
-}
-
-.OasisFilter{
-    margin-top: 9%;
-}
-
-.OasisFilter video{
-    width: 40%;
-    height: auto;
-}
-
-.OasisHab{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: -30%;
-}
-
-.OasisHab video{
-    width: 40%;
-    height: auto;
-}
-
-.EquipoOasis{
+  }
+  .GifGuion p {
+    font-size: larger;
     width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+  }
+  .Carteles img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+  }
+  .TextoPlat {
+    font-size: larger;
+    width: 70%;
+    height: auto;
+  }
+  .OasisRevista {
+    width: 100%;
+    height: auto;
+  }
+  .OasisRevista img {
+    width: 48%;
+    height: auto;
+    padding-right: 1%;
+    padding-top: 2%;
+    object-fit: contain;
+  }
+  .OasisProducts img {
+    width: 29%;
+    height: auto;
+    padding: 1%;
+    object-fit: contain;
+  }
+  .OasisProducts video {
+    width: 29%;
+    height: auto;
+    padding: 1%;
+    object-fit: contain;
+  }
+  .OasisFilter video {
+    width: 60%;
+    height: auto;
+  }
+  .OasisHab {
     margin-top: 9%;
-    display: block;
-}
-
-.TextoEquipoOasis{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.75em;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-@media screen and (max-width: 600px) {
-    .PortadaOasis{
-        margin-top: 12%;
-    }
-    .FirstTextOasis{
-        font-size: larger;
-        width: 75%;
-    }
-    .Superpuestas img{
-        width: 65%;
-        height: auto;
-    }
-    .GifGuion{
-        flex-direction: column;
-    }
-    .GifGuion video{
-        width: 60%;
-        height: auto;
-    }
-    .GifGuion p{
-        font-size: larger;
-        width: 70%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .Carteles img{
-        width: 45%;
-        height: auto;
-        object-fit: contain;
-    }
-    .TextoPlat{
-        font-size: larger;
-        width: 70%;
-        height: auto;
-    }
-    .OasisRevista{
-        width: 100%;
-        height: auto;
-    }
-    .OasisRevista img{
-        width: 48%;
-        height: auto;
-        padding-right: 1%;
-        padding-top: 2%;
-        object-fit: contain;
-    }
-    .OasisProducts img{
-        width: 29%;
-        height: auto;
-        padding: 1%;
-        object-fit: contain;
-    }
-    .OasisProducts video{
-        width: 29%;
-        height: auto;
-        padding: 1%;
-        object-fit: contain;
-    }
-    .OasisFilter video{
-        width: 60%;
-        height: auto;
-    }
-    .OasisHab{
-        margin-top: 9%;
-    }
-    .OasisHab video{
-        width: 60%;
-        height: auto;
-    }
-    .EquipoOasis{
-        width: 85%;
-        height: auto;
-    }
-    .TextoEquipoOasis{
-        font-size: larger;
-    }
-
+  }
+  .OasisHab video {
+    width: 60%;
+    height: auto;
+  }
+  .EquipoOasis {
+    width: 85%;
+    height: auto;
+  }
+  .TextoEquipoOasis {
+    font-size: larger;
+  }
 }

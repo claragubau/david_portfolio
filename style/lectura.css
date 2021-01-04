@@ -1,99 +1,92 @@
-.PortadaLO{
+.PortadaLO {
+  width: 100%;
+  height: auto;
+  position: static;
+  margin-top: 10vh;
+}
+
+.PrimerTextoLO {
+  width: 40%;
+  font-size: 1.75em;
+  margin-top: 9%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Mockups {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9%;
+}
+
+.Mockups img {
+  width: 80%;
+  height: auto;
+  padding: 0.5%;
+}
+
+.Ojos {
+  margin-top: 9%;
+  width: 80%;
+  height: auto;
+}
+
+.Piezas {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 1%;
+}
+
+.Piezas img {
+  width: 80%;
+  height: auto;
+}
+
+.TextoLO {
+  margin-top: 9%;
+  font-size: 1.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2.5%;
+}
+
+.TextoLO p {
+  width: 45%;
+}
+
+.VideoLO {
+  margin-top: 9%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9%;
+  width: 75%;
+  height: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .PortadaLO {
+    margin-top: 12%;
+  }
+  .PrimerTextoLO {
+    font-size: x-large;
+    width: 80%;
+  }
+  .Mockups img {
     width: 100%;
     height: auto;
-    position: static;
-    margin-top: 10vh;
-}
-@media screen and (max-width: 600px) {
-    .PortadaLO{
-        margin-top: 12%;
-    }
-}
-
-.PrimerTextoLO{
-    width: 40%;
-    font-size: 1.75em;
-    margin-top: 9%;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media screen and (max-width: 600px) {
-    .PrimerTextoLO{
-        font-size: x-large;
-        width: 80%;
-    }
-}
-
-.Mockups{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 9%;
-}
-
-.Mockups img{
-    width: 80%;
-    height: auto;
-    padding: 0.5%;
-}
-@media screen and (max-width: 600px) {
-    .Mockups img{
-        width: 100%;
-        height: auto;
-    }
-}
-
-.Ojos{
-    margin-top: 9%;
-    width: 80%;
-    height: auto;
-}
-
-.Piezas{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: 1%;
-}
-
-.Piezas img{
-    width: 80%;
-    height: auto;
-}
-
-.TextoLO{
-    margin-top: 9%;
-    font-size: 1.75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: -2.5%;
-}
-
-.TextoLO p{
-    width: 45%;
-}
-@media screen and (max-width: 600px) {
-    .TextoLO p{
-        font-size: x-large;
-        width: 60%;
-    }
-}
-
-.VideoLO{
-    margin-top: 9%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 9%;
-    width: 75%;
-    height: 80%;
-}
-@media screen and (max-width: 600px) {
-    .VideoLO{
-        width: 100%;
-        height: 40%;
-    }
+  }
+  .TextoLO p {
+    font-size: x-large;
+    width: 60%;
+  }
+  .VideoLO {
+    width: 100%;
+    height: 40%;
+  }
 }

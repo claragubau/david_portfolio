@@ -1,278 +1,253 @@
-.EgoPortada{
-    width: 100%;
-    height: auto;
-    position: static;
-    margin-top: 10vh;
-}
-@media screen and (max-width: 600px) {
-    .EgoPortada{
-        margin-top: 12%;
-    }
+.EgoPortada {
+  width: 100%;
+  height: auto;
+  position: static;
+  margin-top: 10vh;
 }
 
-.EgoPrimerTexto{
-    font-size: 1.75em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 9%;
-    width: 50%;
+.EgoPrimerTexto {
+  font-size: 1.75em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+  width: 50%;
 }
 
-@media screen and (max-width : 600px) {
-    .EgoPrimerTexto{
-        width: 65%;
-        font-size: larger;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.Bienvenida {
+  margin-top: 9%;
+  width: 65%;
+  height: auto;
 }
 
-.Bienvenida{
-    margin-top: 9%;
-    width: 65%;
-    height: auto;
-}
-@media screen and (max-width: 600px) {
-    .Bienvenida{
-        width: 80%;
-    }
+.InicioEgo {
+  width: 100%;
+  margin-top: 9%;
 }
 
-.InicioEgo{
-    width: 100%;
-    margin-top: 9%;
+.InicioFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@media screen and (max-width : 600px) {
-    .InicioEgo{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.InicioFlex img {
+  width: 100%;
+  min-width: 0;
 }
 
-.InicioFlex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-@media screen and (max-width : 600px) {
-    .InicioFlex{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .InicioFlex img{
-        padding: 1% 1% 1% 1%;
-        display: block;
-    }
+.JuegoEgo {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.InicioFlex img{
-    width: 100%;
-    min-width: 0;
+.JuegoEgo img {
+  width: 65%;
+  height: auto;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
 }
 
-.JuegoEgo{
-    margin-top: 9%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+.TegustaEgo {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: row;
 }
 
-.JuegoEgo img{
-    width: 65% ;
-    height: auto;
-    padding-bottom: 0.5%;
-    padding-top: 0.5%;
-}
-@media screen and (max-width: 600px) {
-    .JuegoEgo img{
-        width: 80%;
-        height: auto;
-    }
+.TeGustaImg {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
-.TegustaEgo{
-    margin-top: 9%;
-    display: flex;
-    flex-direction: row;
-}
-@media screen and (max-width: 600px) {
-    .TegustaEgo{
-        flex-direction: column;
-    }
+.TeGustaImg img {
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
-.TeGustaImg{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+.TeGustaTexto {
+  font-size: 1.75em;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 5%;
 }
 
-.TeGustaImg img{
-    width: 100%;
-    height: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-@media screen and (max-width: 600px) {
-    .TeGustaImg{
-        width: 70%;
-        height: auto;
-    }
-
+.AlterEgo {
+  margin-top: 9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.TeGustaTexto{
-    font-size: 1.75em;
-    width: 30%;
-    margin-top: 10%;
-    margin-left: 5%;
-}
-@media screen and (max-width: 600px) {
-    .TeGustaTexto{
-        font-size: larger;
-        width: 65%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.AlterEgo img {
+  width: 100%;
+  min-width: 0;
 }
 
-
-.AlterEgo{
-    margin-top: 9%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-@media screen and (max-width: 600px) {
-    .AlterEgo{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.PesadoEgo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
 }
 
-.AlterEgo img{
-    width: 100%;
-    min-width: 0;
-}
-@media screen and (max-width: 600px) {
-    .AlterEgo img{
-        width: 80%;
-        height: auto;
-        padding: 0.5%;
-
-    }
+.PesadoEgo img {
+  width: 60%;
+  height: auto;
+  padding: 0.5%;
 }
 
-.PesadoEgo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 9%;
-}
-@media screen and (max-width: 600px) {
-    .PesadoEgo{
-        margin-top: 0;
-    }
+.LateralEgo {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.PesadoEgo img{
-    width: 60%;
-    height: auto;
-    padding: 0.5%;
+.EgoContraportada {
+  margin-top: 9%;
+  margin-bottom: 9%;
+  width: 100%;
+  height: auto;
 }
-@media screen and (max-width: 600px) {
-    .PesadoEgo img{
-        width: 80%;
-    }
-}
-
-.LateralEgo{
-    display: flex;
-    flex-direction: column;
-}
-
-.EgoContraportada{
-    margin-top: 9%;
-    margin-bottom: 9%;
-    width: 100%;
-    height: auto;
-}
-
 
 .VayaEgo {
-    display: grid;
-    width: 100%;
-    margin-top: 9%;
+  display: grid;
+  width: 100%;
+  margin-top: 9%;
 }
 
-.VayaEgo img{
-    width: 100%;
-    height: auto;
+.VayaEgo img {
+  width: 100%;
+  height: auto;
 }
 
 .VayaEgo1 {
-    grid-column: 1;
-    grid-row: 1;
-    padding-right: 1%;
-    padding-bottom: 1%;
+  grid-column: 1;
+  grid-row: 1;
+  padding-right: 1%;
+  padding-bottom: 1%;
 }
 
 .VayaEgo2 {
-    grid-column: 1;
-    grid-row: 2;
-    padding-right: 1%;
-    padding-top: 1%;
+  grid-column: 1;
+  grid-row: 2;
+  padding-right: 1%;
+  padding-top: 1%;
 }
 .VayaEgo3 {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-    padding-left: 1%;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  padding-left: 1%;
 }
 
-.VayaEgo3 img{
-    height: 100%;
-    width: 100%;
+.VayaEgo3 img {
+  height: 100%;
+  width: 100%;
 }
-
-
-
 
 .GarantiaEgo {
-    display: grid;
-    width: 100%;
-    margin-top: 9%;
+  display: grid;
+  width: 100%;
+  margin-top: 9%;
 }
 
-.GarantiaEgo img{
-    width: 100%;
-    height: auto;
+.GarantiaEgo img {
+  width: 100%;
+  height: auto;
 }
 
 .GarantiaEgo1 {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-    padding-right: 1%;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  padding-right: 1%;
 }
 
-.GarantiaEgo1 img{
-    height: 100%;
-    width: 100%;
+.GarantiaEgo1 img {
+  height: 100%;
+  width: 100%;
 }
 .GarantiaEgo2 {
-    grid-column: 2;
-    grid-row: 1;
-    padding-left: 1%;
-    padding-bottom: 1%;
+  grid-column: 2;
+  grid-row: 1;
+  padding-left: 1%;
+  padding-bottom: 1%;
 }
 .GarantiaEgo3 {
-    grid-column: 2;
-    grid-row: 2;
-    padding-left: 1%;
-    padding-top: 1%;
+  grid-column: 2;
+  grid-row: 2;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+@media screen and (max-width: 600px) {
+  .EgoPortada {
+    margin-top: 12%;
+  }
+  .EgoPrimerTexto {
+    width: 65%;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Bienvenida {
+    width: 80%;
+    height: auto;
+  }
+  .InicioEgo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .InicioFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .InicioFlex img {
+    padding: 1% 1% 1% 1%;
+    display: block;
+  }
+  .JuegoEgo img {
+    width: 80%;
+    height: auto;
+  }
+  .TegustaEgo {
+    flex-direction: column;
+  }
+  .TeGustaImg {
+    width: 70%;
+    height: auto;
+  }
+  .TeGustaTexto {
+    font-size: larger;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .AlterEgo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .AlterEgo img {
+    width: 80%;
+    height: auto;
+    padding: 0.5%;
+  }
+  .PesadoEgo {
+    margin-top: 0;
+  }
+  .PesadoEgo img {
+    width: 80%;
+    height: auto;
+  }
+  .VayaEgo3 img{
+    object-fit: contain;
+  }
+  .GarantiaEgo1 img{
+    object-fit: contain;
+  }
 }

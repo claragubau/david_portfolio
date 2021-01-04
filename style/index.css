@@ -9,25 +9,31 @@ body {
   cursor: url("CURSOR_39x39_150ppi.png") 25 25, none;
 }
 
-
-@font-face{
+@font-face {
   font-family: "HelveticaNeue";
-  src: local("HelveticaNeue"), url("../fonts/HelveticaNeue.ttf") format("truetype");
+  src: local("HelveticaNeue"),
+    url("../fonts/HelveticaNeue.ttf") format("truetype");
 }
-@font-face{
+
+@font-face {
   font-family: "HelveticaNeueItalic";
-  src: local("HelveticaNeueItalic"), url('../fonts/HelveticaNeue-Italic.ttf') format("truetype");
+  src: local("HelveticaNeueItalic"),
+    url("../fonts/HelveticaNeue-Italic.ttf") format("truetype");
   font-style: italic;
 }
-@font-face{
+
+@font-face {
   font-family: "HelveticaNeueBold";
-  src: local("HelveticaNeueBold"), url('../fonts/HelveticaNeueBold.ttf') format("truetype");
+  src: local("HelveticaNeueBold"),
+    url("../fonts/HelveticaNeueBold.ttf") format("truetype");
   font-style: bold;
 }
 
 /* this is the index html css */
+
 /* this part of css is common in al pages*/
-.Name{
+
+.Name {
   position: fixed;
   margin-top: 2vh;
   margin-left: 2vw;
@@ -37,83 +43,57 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  .Name{
-    font-size: 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-a{
+a {
   text-decoration: none;
   text-transform: none;
-  color:black;
+  color: black;
   overflow: auto;
   cursor: url("CURSOR_39x39_150ppi.png") 25 25, none;
 }
 
-a:hover{
+a:hover {
   font-style: italic;
 }
-a:visited{
+
+a:visited {
   text-decoration: none;
   color: black;
 }
-.LeftArrow{
+
+.LeftArrow {
   position: fixed;
   bottom: 5%;
   left: 3%;
   z-index: 6;
   list-style-type: none;
 }
-.LeftArrow img{
+
+.LeftArrow img {
   height: 7vh;
   width: auto;
 }
-@media screen and (max-width: 600px) {
-  .LeftArrow img{
-    height: 4vh;
-    width: auto;
-  }
-}
 
-.RightArrow{
+.RightArrow {
   position: fixed;
   bottom: 5%;
   right: 3%;
   z-index: 6;
   list-style-type: none;
 }
-.RightArrow img{
+
+.RightArrow img {
   height: 7vh;
   width: auto;
 }
 
-@media screen and (max-width: 600px) {
-  .RightArrow img{
-    height: 4vh;
-    width: auto;
-  }
-}
-
-
-.Information{
+.Information {
   position: fixed;
   bottom: 5vh;
   right: 4vw;
   font-size: 2.5vw;
 }
-@media screen and (max-width: 600px) {
-  .Information{
-    font-size: 5vw;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-  }
-}
-.Center{
+
+.Center {
   font-size: 4vw;
   display: flex;
   justify-content: center;
@@ -125,42 +105,31 @@ a:visited{
   margin-right: auto;
   flex-direction: column;
 }
-@media screen and (max-width: 600px) {
-  .Center{
-    font-size: 6vw;
-  }
-}
 
-
-.Center br{
+.Center br {
   display: block;
   margin-top: -1%;
   content: "";
 }
 
-.Center sup{
+.Center sup {
   font-size: 2.25vw;
-}
-@media screen and (max-width: 600px) {
-  .Center sup {
-    font-size: 3vw;
-
-  }
 }
 
 /*PHOTO HOVER*/
+
 .hover-title {
   display: inline;
   pointer-events: auto;
 }
-.hover-title:hover{
+
+.hover-title:hover {
   font-style: italic;
 }
 
 .hover-image {
   display: none;
 }
-
 
 body:not(.mobile) .hover-title:hover + .hover-image {
   display: flex;
@@ -186,12 +155,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   width: auto;
   display: block;
 }
-@media screen and (max-width: 600px) {
-  .hover-image video{
-    display: none;
-  }
-}
-
 
 .hover-image img {
   margin-bottom: 0;
@@ -199,8 +162,38 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   width: auto;
   display: block;
 }
+
 @media screen and (max-width: 600px) {
-  .hover-image img{
+  .hover-image img {
     display: none;
+  }
+  .LeftArrow img {
+    height: 4vh;
+    width: auto;
+  }
+  .RightArrow img {
+    height: 4vh;
+    width: auto;
+  }
+  .Information {
+    font-size: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Center {
+    font-size: 6vw;
+  }
+  .Center sup {
+    font-size: 3vw;
+  }
+  .hover-image video {
+    display: none;
+  }
+  .Name {
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

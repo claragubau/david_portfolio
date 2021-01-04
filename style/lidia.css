@@ -1,114 +1,100 @@
-.LidiaPortada{
+.LidiaPortada {
+  width: 100%;
+  position: static;
+  margin-top: 10vh;
+  height: auto;
+}
+
+.LidiaText1 {
+  width: 50%;
+  font-size: 1.75em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+}
+
+.Pilares {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 9%;
+}
+
+.SistemaVisual {
+  margin-left: 10%;
+  font-size: 1.75em;
+}
+
+.LidiaVideo {
+  width: 55%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+}
+
+.Composicion {
+  width: 50%;
+  font-size: 1.75em;
+  margin-left: 22.5%;
+}
+
+.LidiaCuad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 9%;
+}
+
+.LidiaCuad img {
+  width: 25vw;
+  padding: 0.5%;
+}
+
+.LidiaInstagram {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1.75em;
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+
+@media screen and (max-width: 600px) {
+  .LidiaPortada {
+    margin-top: 12%;
+  }
+  .LidiaText1 {
+    font-size: larger;
+    width: 70%;
+  }
+  .Pilares {
     width: 100%;
-    position: static;
-    margin-top: 10vh;
     height: auto;
-}
-@media screen and (max-width: 600px) {
-    .LidiaPortada{
-        margin-top: 12%;
-    }
-}
-
-.LidiaText1{
-    width: 50%;
-    font-size: 1.75em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 9%;
-}
-
-@media screen and (max-width: 600px) {
-    .LidiaText1{
-        font-size: larger;
-        width: 70%;
-    }
-}
-
-.Pilares{
+  }
+  .SistemaVisual {
+    font-size: larger;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 9%;
-}
-@media screen and (max-width: 600px) {
-    .Pilares{
-        width: 100%;
-        height: auto;
-    }
-}
-
-.SistemaVisual{
-    margin-left: 10%;
-    font-size: 1.75em;
-}
-@media screen and (max-width: 600px) {
-    .SistemaVisual{
-        font-size: larger;
-        width: 80%;
-    }
-}
-
-.LidiaVideo{
-    width: 55%;
+  }
+  .LidiaVideo {
+    width: 80%;
     height: auto;
-    display: block;
+  }
+  .Composicion {
+    font-size: larger;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 9%;
-}
-@media screen and (max-width: 600px) {
-    .LidiaVideo{
-        width: 80%;
-        height: auto;
-    }
-}
-.Composicion{
-    width: 50%;
-    font-size: 1.75em;
-    margin-left: 22.5%;
-}
-
-@media screen and (max-width: 600px) {
-    .Composicion{
-        font-size: larger;
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-.LidiaCuad{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 9%;
-}
-
-.LidiaCuad img{
-    width: 25vw;
-    padding: 0.5%;
-}
-@media screen and (max-width: 600px) {
-    .LidiaCuad img{
-        width: 30vw;
-        height: auto;
-    }
-}
-
-.LidiaInstagram{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    font-size: 1.75em;
-    margin-top: 9%;
-    margin-bottom: 9%;
-}
-
-@media screen and (max-width: 600px) {
-    .LidiaInstagram{
-        font-size: larger;
-    }
+  }
+  .LidiaCuad img {
+    width: 30vw;
+    height: auto;
+    object-fit: contain;
+  }
+  .LidiaInstagram {
+    font-size: larger;
+  }
 }
