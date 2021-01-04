@@ -55,10 +55,8 @@
 }
 
 .LidiaInstagram {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  flex-direction: column;
+  display: block;
   font-size: 1.75em;
   margin-top: 9%;
   margin-bottom: 9%;
