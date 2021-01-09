@@ -58,7 +58,7 @@
   display: block;
   font-size: 1.75em;
   margin-top: 9%;
-  margin-bottom: 9%;
+  padding-bottom: 6%;
 }
 
 @media screen and (max-width: 600px) {
@@ -87,7 +87,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .LidiaCuad{
+  .LidiaCuad {
     width: 100%;
     height: auto;
     align-items: flex-start;
