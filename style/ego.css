@@ -204,7 +204,8 @@
   }
   .InicioFlex {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .InicioFlex img {
     padding: 1% 1% 1% 1%;
@@ -244,10 +245,10 @@
     width: 80%;
     height: auto;
   }
-  .VayaEgo3 img{
-    object-fit: contain;
+  .VayaEgo{
+    align-items: flex-start;
   }
-  .GarantiaEgo1 img{
-    object-fit: contain;
+  .GarantiaEgo{
+    align-items: flex-start;
   }
 }
