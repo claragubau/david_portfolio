@@ -251,4 +251,12 @@
   .GarantiaEgo{
     align-items: flex-start;
   }
+  .GarantiaEgo1 img {
+    height: auto;
+    width: 100%;
+  }
+  .VayaEgo3 img {
+    height: auto;
+    width: 100%;
+  }
 }
