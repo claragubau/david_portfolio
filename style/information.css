@@ -64,7 +64,7 @@
     flex-direction: column;
   }
   .Lateral {
-    font-size: x-large;
+    font-size: 1.4rem;
     margin-right: 1%;
     text-align: right;
     width: 96%;
@@ -75,12 +75,12 @@
   }
   .InfoText {
     width: 90%;
-    font-size: x-large;
+    font-size: 1.4rem;
     margin-left: auto;
     margin-right: auto;
   }
   .Hablamos {
-    font-size: x-large;
+    font-size: 1.4rem;
   }
   .Desarrollada {
     font-size: small;
