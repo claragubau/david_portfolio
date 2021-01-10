@@ -64,9 +64,10 @@
   margin-bottom: 9%;
   width: 100%;
   height: auto;
+  padding-bottom: 1%;
 }
 
-.VidLO{
+.VidLO {
   width: 75%;
   height: 80%;
   margin-left: auto;
