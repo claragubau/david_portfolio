@@ -118,6 +118,7 @@
   display: grid;
   width: 100%;
   margin-top: 9%;
+  grid-template-columns: fit-content(52.5%) 1fr;
 }
 
 .VayaEgo img {
@@ -153,6 +154,8 @@
   display: grid;
   width: 100%;
   margin-top: 9%;
+  grid-template-columns: 1fr fit-content(52.5%);
+
 }
 
 .GarantiaEgo img {
