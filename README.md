@@ -2,4 +2,8 @@
 
 This repository was made to provide a portfolio's webpage to a design student. 
 
-[![star this repo](https://img.shields.io/github/stars/claragubau/portfolio?label=Star&style=flat-square)](https://github.com/claragubau/portfolio)
+[![Build Status](https://travis-ci.com/mauriciabad/Portfolio.svg?branch=master)](https://travis-ci.com/mauriciabad/Portfolio)
+
+See the results here: https://davidalsinamercier.com/
+
+Author: [Clara Gubau]
