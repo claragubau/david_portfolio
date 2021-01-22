@@ -6,4 +6,4 @@ This repository was made to provide a portfolio's webpage to a design student.
 
 See the results here: https://davidalsinamercier.com/
 
-Author: [Clara Gubau]
+Author: Clara Gubau
