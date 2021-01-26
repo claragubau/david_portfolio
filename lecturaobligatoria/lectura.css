@@ -69,7 +69,7 @@
 
 .VidLO {
   width: 75%;
-  height: 80%;
+  height: 80vh;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -93,6 +93,6 @@
   }
   .VidLO {
     width: 100%;
-    height: 40%;
+    height: 35vh;
   }
 }
