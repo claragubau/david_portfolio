@@ -3,3 +3,12 @@
     height: 100%;
     background-color: black;
 }
+
+.LidiaVideo {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+  }
